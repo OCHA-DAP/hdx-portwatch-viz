@@ -1,0 +1,86 @@
+import json
+import pandas as pd
+from pathlib import Path
+
+# ── Config ────────────────────────────────────────────────────────────────────
+DATA_DIR = Path(__file__).parent / 'data' / 'raw'
+OUT_FILE = Path(__file__).parent / 'data' / 'ports.json'
+
+PORT_CONFIG = {
+    'Beirut, Lebanon':  ('lebanon', 'Beirut'),
+    'Mombasa, Kenya':   ('kenya',   'Mombasa'),
+    'Salalah, Oman':    ('oman',    'Salalah'),
+    'Djibouti, Djibouti': ('djibouti', 'Djibouti'),
+    'Sudan, Port Sudan': ('sudan', 'Port Sudan'),
+}
+
+
+def load_port(country_slug: str, portname: str) -> pd.DataFrame:
+    path = DATA_DIR / f'{country_slug}-daily-port-activity-data-and-shipment-estimates.csv'
+    df = pd.read_csv(path)
+    df['date'] = pd.to_datetime(df['date'], utc=True).dt.tz_localize(None)
+    df = df[df['portname'] == portname].copy()
+    df = df.groupby('date')['portcalls'].sum().reset_index().sort_values('date')
+    return df
+
+
+def compute_seasonal(df: pd.DataFrame) -> dict:
+    df = df.copy()
+    df['doy']  = df['date'].dt.dayofyear
+    df['year'] = df['date'].dt.year
+    current_year = int(df['year'].max())
+
+    df['roll7'] = (
+        df.groupby('year')['portcalls']
+        .transform(lambda x: x.rolling(7, center=False, min_periods=3).mean())
+    )
+
+    hist = (
+        df[df['year'] != current_year]
+        .groupby('doy')['roll7']
+        .agg(hist_avg='mean', hist_sd='std')
+        .reset_index()
+    )
+    hist['hist_sd'] = hist['hist_sd'].fillna(0)
+    hist['upper'] = (hist['hist_avg'] + hist['hist_sd']).round(2)
+    hist['lower'] = (hist['hist_avg'] - hist['hist_sd']).clip(lower=0).round(2)
+    hist['hist_avg'] = hist['hist_avg'].round(2)
+
+    curr = df[df['year'] == current_year][['doy', 'roll7']].dropna()
+    curr['roll7'] = curr['roll7'].round(2)
+
+    hist_years_min = int(df[df['year'] != current_year]['year'].min())
+
+    return {
+        'current_year': current_year,
+        'hist_label': f'{hist_years_min}–{current_year - 1}',
+        'latest_date': df['date'].max().strftime('%d %b %Y'),
+        'hist': hist[['doy', 'hist_avg', 'upper', 'lower']].to_dict(orient='records'),
+        'current': curr[['doy', 'roll7']].to_dict(orient='records'),
+    }
+
+
+def main():
+    output = {'ports': list(PORT_CONFIG.keys()), 'data': {}}
+
+    for display_name, (country_slug, portname) in PORT_CONFIG.items():
+        print(f'Processing {display_name}...')
+        df = load_port(country_slug, portname)
+        output['data'][display_name] = compute_seasonal(df)
+        print(f'  Latest: {output["data"][display_name]["latest_date"]}')
+
+    def clean(obj):
+        if isinstance(obj, list): return [clean(v) for v in obj]
+        if isinstance(obj, dict): return {k: clean(v) for k, v in obj.items()}
+        if isinstance(obj, float) and obj != obj: return None  # NaN → null
+        return obj
+
+    OUT_FILE.parent.mkdir(exist_ok=True)
+    with open(OUT_FILE, 'w') as f:
+        json.dump(clean(output), f, indent=2)
+
+    print(f'\nWrote {OUT_FILE}')
+
+
+if __name__ == '__main__':
+    main()

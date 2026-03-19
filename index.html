@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Port Activity Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      padding: 2rem;
+    }
+
+    header {
+      border-bottom: 3px solid #007CE0;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    header p {
+      font-size: 0.875rem;
+      color: #555;
+      margin-top: 0.25rem;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    select {
+      font-family: inherit;
+      font-size: 0.875rem;
+      padding: 0.4rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background: #fff;
+      color: #1a1a1a;
+      cursor: pointer;
+    }
+
+    select:focus { outline: 2px solid #007CE0; outline-offset: 1px; }
+
+    .chart-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      padding: 1.5rem;
+      max-width: 900px;
+    }
+
+    .chart-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .chart-subtitle {
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+
+    .chart-wrap { position: relative; height: 340px; }
+
+    .legend {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    .legend-swatch {
+      width: 28px;
+      height: 3px;
+      border-radius: 2px;
+    }
+
+    .legend-swatch.dashed {
+      background: repeating-linear-gradient(
+        90deg, #1EBFB3 0 5px, transparent 5px 9px
+      );
+    }
+
+    .legend-band {
+      width: 28px;
+      height: 10px;
+      border-radius: 2px;
+      background: rgba(30, 191, 179, 0.25);
+      border: 1px solid rgba(30, 191, 179, 0.4);
+    }
+
+    .chart-caption {
+      font-size: 0.72rem;
+      color: #aaa;
+      margin-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Port Activity — Seasonal Comparison</h1>
+  <p>Daily port calls: current year vs historical average. 7-day rolling average.</p>
+</header>
+
+<p style="font-size:0.85rem; color:#444; line-height:1.6; max-width:900px; margin-bottom:1.5rem;">Port calls (the number of vessels arriving at a given port) are tracked daily using satellite data and serve as an indicator of potential supply chain disruptions. The chart compares current port activity against the historical average, with the shaded band representing normal variation. Sustained drops below this range may signal emerging trade disruptions warranting attention.</p>
+
+<div class="controls">
+  <label for="port-select">Port</label>
+  <select id="port-select"></select>
+</div>
+
+<div class="chart-card">
+  <div class="chart-title" id="chart-title"></div>
+  <div class="chart-subtitle" id="chart-subtitle"></div>
+  <div class="chart-wrap">
+    <canvas id="chart"></canvas>
+  </div>
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-swatch" style="background:#F2645A; height:2.5px;"></div>
+      <span id="legend-current"></span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch dashed"></div>
+      <span id="legend-hist-avg"></span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-band"></div>
+      <span id="legend-band"></span>
+    </div>
+  </div>
+  <div class="chart-caption" id="chart-caption"></div>
+</div>
+
+<script>
+// Month labels at DOY boundaries
+const MONTH_DOYS = [1, 32, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335];
+const MONTH_LABELS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+let chartInstance = null;
+
+async function loadData() {
+  const res = await fetch('data/ports.json');
+  return res.json();
+}
+
+function buildDatasets(portData) {
+  const currentYear = portData.current_year;
+  const allDoys = Array.from({length: 365}, (_, i) => i + 1);
+  const histMap = Object.fromEntries(portData.hist.map(d => [d.doy, d]));
+  const currMap = Object.fromEntries(portData.current.map(d => [d.doy, d.roll7]));
+
+  const upper   = allDoys.map(d => histMap[d]?.upper    ?? null);
+  const lower   = allDoys.map(d => histMap[d]?.lower    ?? null);
+  const histAvg = allDoys.map(d => histMap[d]?.hist_avg ?? null);
+  const currLine = allDoys.map(d => currMap[d] ?? null);
+
+  return [
+    {
+      label: '_upper',
+      data: upper,
+      fill: '+1',
+      backgroundColor: 'rgba(30, 191, 179, 0.18)',
+      borderWidth: 0,
+      pointRadius: 0,
+      tension: 0.3,
+    },
+    {
+      label: '_lower',
+      data: lower,
+      fill: false,
+      borderWidth: 0,
+      pointRadius: 0,
+      tension: 0.3,
+    },
+    {
+      label: 'Historical mean',
+      data: histAvg,
+      fill: false,
+      borderColor: '#1EBFB3',
+      borderWidth: 1.5,
+      borderDash: [5, 4],
+      pointRadius: 0,
+      tension: 0.3,
+    },
+    {
+      label: String(currentYear),
+      data: currLine,
+      fill: false,
+      borderColor: '#F2645A',
+      borderWidth: 2,
+      pointRadius: 0,
+      tension: 0.3,
+    },
+  ];
+}
+
+function renderChart(portName, portData) {
+  const datasets = buildDatasets(portData);
+  const allDoys  = Array.from({length: 365}, (_, i) => i + 1);
+
+  // Update text
+  document.getElementById('chart-title').textContent =
+    `${portName} — port calls, current year vs historical average`;
+  document.getElementById('chart-subtitle').textContent =
+    `7-day rolling average (trailing)  ·  ${portData.current_year} vs ${portData.hist_label}`;
+  document.getElementById('legend-current').textContent =
+    `${portData.current_year} (current year)`;
+  document.getElementById('legend-hist-avg').textContent =
+    `Historical mean (${portData.hist_label})`;
+  document.getElementById('legend-band').textContent =
+    `± 1 SD`;
+  const caption = document.getElementById('chart-caption');
+  caption.innerHTML = `Sources: UN Global Platform; IMF PortWatch (<a href="https://portwatch.imf.org" target="_blank" rel="noopener" style="color:#007CE0;">portwatch.imf.org</a>). Data accessed from <a href="https://data.humdata.org/organization/portwatch" target="_blank" rel="noopener" style="color:#007CE0;">HDX</a>. Latest data: ${portData.latest_date}.`;
+
+  if (chartInstance) chartInstance.destroy();
+
+  const ctx = document.getElementById('chart').getContext('2d');
+  chartInstance = new Chart(ctx, {
+    type: 'line',
+    data: { labels: allDoys, datasets },
+    options: {
+      animation: false,
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: ctx => {
+              const doy = Number(ctx[0].label);
+              const d = new Date(portData.current_year, 0, doy);
+              return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+            },
+            label: ctx => {
+              if (ctx.dataset.label.startsWith('_')) return null;
+              const v = ctx.raw;
+              if (v === null) return null;
+              return `${ctx.dataset.label}: ${v.toFixed(1)}`;
+            },
+          },
+          filter: item => !item.dataset.label.startsWith('_'),
+        },
+      },
+      scales: {
+        x: {
+          type: 'linear',
+          min: 1,
+          max: 365,
+          ticks: {
+            font: { family: "'Source Sans 3', sans-serif", size: 11 },
+            color: '#888',
+            callback: (val) => {
+              const idx = MONTH_DOYS.indexOf(val);
+              return idx >= 0 ? MONTH_LABELS[idx] : '';
+            },
+            maxRotation: 0,
+            autoSkip: false,
+          },
+          afterBuildTicks: axis => { axis.ticks = MONTH_DOYS.map(v => ({ value: v })); },
+          grid: { color: '#f0f0f0' },
+        },
+        y: {
+          min: 0,
+          ticks: {
+            font: { family: "'Source Sans 3', sans-serif", size: 11 },
+            color: '#888',
+          },
+          title: {
+            display: true,
+            text: 'Port calls (7-day rolling avg)',
+            font: { family: "'Source Sans 3', sans-serif", size: 11 },
+            color: '#888',
+          },
+          grid: { color: '#f0f0f0' },
+        },
+      },
+    },
+  });
+}
+
+async function init() {
+  let data;
+  try {
+    data = await loadData();
+  } catch (e) {
+    document.querySelector('.chart-card').innerHTML =
+      `<p style="color:#F2645A;padding:1rem">Failed to load data/ports.json. Make sure you are running the server from inside the <code>dashboard/</code> directory.</p>`;
+    console.error(e);
+    return;
+  }
+
+  const select = document.getElementById('port-select');
+  data.ports.forEach(port => {
+    const opt = document.createElement('option');
+    opt.value = port;
+    opt.textContent = port;
+    select.appendChild(opt);
+  });
+
+  renderChart(data.ports[0], data.data[data.ports[0]]);
+
+  select.addEventListener('change', () => {
+    renderChart(select.value, data.data[select.value]);
+  });
+}
+
+init();
+</script>
+</body>
+</html>
