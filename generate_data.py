@@ -7,31 +7,28 @@ DATA_DIR = Path(__file__).parent / 'data' / 'raw'
 OUT_FILE = Path(__file__).parent / 'data' / 'ports.json'
 
 PORT_CONFIG = {
-    'Beirut, Lebanon':  ('lebanon', 'Beirut'),
-    'Mombasa, Kenya':   ('kenya',   'Mombasa'),
-    'Salalah, Oman':    ('oman',    'Salalah'),
+    'Beirut, Lebanon':    ('lebanon',  'Beirut'),
+    'Mombasa, Kenya':     ('kenya',    'Mombasa'),
+    'Salalah, Oman':      ('oman',     'Salalah'),
     'Djibouti, Djibouti': ('djibouti', 'Djibouti'),
-    'Sudan, Port Sudan': ('sudan', 'Port Sudan'),
+    'Port Sudan, Sudan':  ('sudan',    'Port Sudan'),
 }
 
+STRAIT_CONFIG = {
+    'Strait of Hormuz': 'Strait of Hormuz',
+}
 
-def load_port(country_slug: str, portname: str) -> pd.DataFrame:
-    path = DATA_DIR / f'{country_slug}-daily-port-activity-data-and-shipment-estimates.csv'
-    df = pd.read_csv(path)
-    df['date'] = pd.to_datetime(df['date'], utc=True).dt.tz_localize(None)
-    df = df[df['portname'] == portname].copy()
-    df = df.groupby('date')['portcalls'].sum().reset_index().sort_values('date')
-    return df
+CHOKEPOINT_FILE = 'daily-chokepoint-transit-calls-and-shipment-volume-estimates.csv'
 
 
-def compute_seasonal(df: pd.DataFrame) -> dict:
+def compute_seasonal(df: pd.DataFrame, value_col: str) -> dict:
     df = df.copy()
     df['doy']  = df['date'].dt.dayofyear
     df['year'] = df['date'].dt.year
     current_year = int(df['year'].max())
 
     df['roll7'] = (
-        df.groupby('year')['portcalls']
+        df.groupby('year')[value_col]
         .transform(lambda x: x.rolling(7, center=False, min_periods=3).mean())
     )
 
@@ -61,13 +58,32 @@ def compute_seasonal(df: pd.DataFrame) -> dict:
 
 
 def main():
-    output = {'ports': list(PORT_CONFIG.keys()), 'data': {}}
+    output = {
+        'ports': list(PORT_CONFIG.keys()),
+        'port_data': {},
+        'straits': list(STRAIT_CONFIG.keys()),
+        'strait_data': {},
+    }
 
+    # Port calls
     for display_name, (country_slug, portname) in PORT_CONFIG.items():
         print(f'Processing {display_name}...')
-        df = load_port(country_slug, portname)
-        output['data'][display_name] = compute_seasonal(df)
-        print(f'  Latest: {output["data"][display_name]["latest_date"]}')
+        path = DATA_DIR / f'{country_slug}-daily-port-activity-data-and-shipment-estimates.csv'
+        df = pd.read_csv(path)
+        df['date'] = pd.to_datetime(df['date'], utc=True).dt.tz_localize(None)
+        df = df[df['portname'] == portname].groupby('date')['portcalls'].sum().reset_index()
+        output['port_data'][display_name] = compute_seasonal(df, 'portcalls')
+        print(f'  Latest: {output["port_data"][display_name]["latest_date"]}')
+
+    # Strait transit calls
+    chokepoints = pd.read_csv(DATA_DIR / CHOKEPOINT_FILE)
+    chokepoints['date'] = pd.to_datetime(chokepoints['date'], utc=True).dt.tz_localize(None)
+
+    for display_name, strait_name in STRAIT_CONFIG.items():
+        print(f'Processing {display_name}...')
+        df = chokepoints[chokepoints['portname'] == strait_name][['date', 'n_total']].copy()
+        output['strait_data'][display_name] = compute_seasonal(df, 'n_total')
+        print(f'  Latest: {output["strait_data"][display_name]["latest_date"]}')
 
     def clean(obj):
         if isinstance(obj, list): return [clean(v) for v in obj]

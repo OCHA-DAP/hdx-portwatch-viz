@@ -16,6 +16,8 @@
       background: #ffffff;
       color: #1a1a1a;
       padding: 2rem;
+      max-width: 100%;
+      overflow-x: hidden;
     }
 
     header {
@@ -36,11 +38,40 @@
       margin-top: 0.25rem;
     }
 
+    .blurb {
+      font-size: 0.85rem;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    /* Prevent grid children from overflowing their tracks */
+    .columns > * { min-width: 0; }
+
+    @media (max-width: 800px) {
+      .columns { grid-template-columns: 1fr; }
+    }
+
+    .column-header {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #888;
+      margin-bottom: 0.75rem;
+    }
+
     .controls {
       display: flex;
       align-items: center;
       gap: 1rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     label {
@@ -67,7 +98,8 @@
       border: 1px solid #e0e0e0;
       border-radius: 4px;
       padding: 1.5rem;
-      max-width: 900px;
+      min-width: 0;
+      width: 100%;
     }
 
     .chart-title {
@@ -82,7 +114,7 @@
       margin-bottom: 1rem;
     }
 
-    .chart-wrap { position: relative; height: 340px; }
+    .chart-wrap { position: relative; height: 300px; width: 100%; }
 
     .legend {
       display: flex;
@@ -130,184 +162,193 @@
 
 <header>
   <h1>Port Activity — Seasonal Comparison</h1>
-  <p>Daily port calls: current year vs historical average. 7-day rolling average.</p>
+  <p>Daily port calls and chokepoint transits: current year vs historical average. 7-day rolling average.</p>
 </header>
 
-<p style="font-size:0.85rem; color:#444; line-height:1.6; max-width:900px; margin-bottom:1.5rem;">Port calls (the number of vessels arriving at a given port) are tracked daily using satellite data and serve as an indicator of potential supply chain disruptions. The chart compares current port activity against the historical average, with the shaded band representing normal variation. Sustained drops below this range may signal emerging trade disruptions warranting attention.</p>
+<p class="blurb">Port calls and chokepoint transit calls (the number of vessels arriving at a given port or passing through a critical maritime passage) are tracked daily using satellite data and serve as a timely indicator of potential supply chain disruptions. The chart compares current activity against the historical average, with the shaded band representing normal variation. Sustained drops below this range may signal emerging trade disruptions warranting attention.</p>
 
-<div class="controls">
-  <label for="port-select">Port</label>
-  <select id="port-select"></select>
-</div>
+<div class="columns">
 
-<div class="chart-card">
-  <div class="chart-title" id="chart-title"></div>
-  <div class="chart-subtitle" id="chart-subtitle"></div>
-  <div class="chart-wrap">
-    <canvas id="chart"></canvas>
+  <!-- Port calls column -->
+  <div>
+    <div class="column-header">Port calls</div>
+    <div class="controls">
+      <label for="port-select">Port</label>
+      <select id="port-select"></select>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title" id="port-chart-title"></div>
+      <div class="chart-subtitle" id="port-chart-subtitle"></div>
+      <div class="chart-wrap">
+        <canvas id="port-chart"></canvas>
+      </div>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-swatch" style="background:#F2645A; height:2.5px;"></div>
+          <span id="port-legend-current"></span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-swatch dashed"></div>
+          <span id="port-legend-hist-avg"></span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-band"></div>
+          <span>± 1 SD</span>
+        </div>
+      </div>
+      <div class="chart-caption" id="port-chart-caption"></div>
+    </div>
   </div>
-  <div class="legend">
-    <div class="legend-item">
-      <div class="legend-swatch" style="background:#F2645A; height:2.5px;"></div>
-      <span id="legend-current"></span>
+
+  <!-- Strait transit column -->
+  <div>
+    <div class="column-header">Chokepoint transit calls</div>
+    <div class="controls">
+      <label for="strait-select">Chokepoint</label>
+      <select id="strait-select"></select>
     </div>
-    <div class="legend-item">
-      <div class="legend-swatch dashed"></div>
-      <span id="legend-hist-avg"></span>
-    </div>
-    <div class="legend-item">
-      <div class="legend-band"></div>
-      <span id="legend-band"></span>
+    <div class="chart-card">
+      <div class="chart-title" id="strait-chart-title"></div>
+      <div class="chart-subtitle" id="strait-chart-subtitle"></div>
+      <div class="chart-wrap">
+        <canvas id="strait-chart"></canvas>
+      </div>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-swatch" style="background:#F2645A; height:2.5px;"></div>
+          <span id="strait-legend-current"></span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-swatch dashed"></div>
+          <span id="strait-legend-hist-avg"></span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-band"></div>
+          <span>± 1 SD</span>
+        </div>
+      </div>
+      <div class="chart-caption" id="strait-chart-caption"></div>
     </div>
   </div>
-  <div class="chart-caption" id="chart-caption"></div>
+
 </div>
 
 <script>
-// Month labels at DOY boundaries
-const MONTH_DOYS = [1, 32, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335];
+const MONTH_DOYS   = [1, 32, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335];
 const MONTH_LABELS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
-let chartInstance = null;
+const charts = { port: null, strait: null };
 
 async function loadData() {
   const res = await fetch('data/ports.json');
   return res.json();
 }
 
-function buildDatasets(portData) {
-  const currentYear = portData.current_year;
-  const allDoys = Array.from({length: 365}, (_, i) => i + 1);
-  const histMap = Object.fromEntries(portData.hist.map(d => [d.doy, d]));
-  const currMap = Object.fromEntries(portData.current.map(d => [d.doy, d.roll7]));
-
-  const upper   = allDoys.map(d => histMap[d]?.upper    ?? null);
-  const lower   = allDoys.map(d => histMap[d]?.lower    ?? null);
-  const histAvg = allDoys.map(d => histMap[d]?.hist_avg ?? null);
-  const currLine = allDoys.map(d => currMap[d] ?? null);
+function buildDatasets(entry) {
+  const allDoys  = Array.from({length: 365}, (_, i) => i + 1);
+  const histMap  = Object.fromEntries(entry.hist.map(d => [d.doy, d]));
+  const currMap  = Object.fromEntries(entry.current.map(d => [d.doy, d.roll7]));
 
   return [
     {
       label: '_upper',
-      data: upper,
+      data: allDoys.map(d => histMap[d]?.upper ?? null),
       fill: '+1',
       backgroundColor: 'rgba(30, 191, 179, 0.18)',
-      borderWidth: 0,
-      pointRadius: 0,
-      tension: 0.3,
+      borderWidth: 0, pointRadius: 0, tension: 0.3,
     },
     {
       label: '_lower',
-      data: lower,
+      data: allDoys.map(d => histMap[d]?.lower ?? null),
       fill: false,
-      borderWidth: 0,
-      pointRadius: 0,
-      tension: 0.3,
+      borderWidth: 0, pointRadius: 0, tension: 0.3,
     },
     {
       label: 'Historical mean',
-      data: histAvg,
+      data: allDoys.map(d => histMap[d]?.hist_avg ?? null),
       fill: false,
-      borderColor: '#1EBFB3',
-      borderWidth: 1.5,
-      borderDash: [5, 4],
-      pointRadius: 0,
-      tension: 0.3,
+      borderColor: '#1EBFB3', borderWidth: 1.5, borderDash: [5, 4],
+      pointRadius: 0, tension: 0.3,
     },
     {
-      label: String(currentYear),
-      data: currLine,
+      label: String(entry.current_year),
+      data: allDoys.map(d => currMap[d] ?? null),
       fill: false,
-      borderColor: '#F2645A',
-      borderWidth: 2,
-      pointRadius: 0,
-      tension: 0.3,
+      borderColor: '#F2645A', borderWidth: 2,
+      pointRadius: 0, tension: 0.3,
     },
   ];
 }
 
-function renderChart(portName, portData) {
-  const datasets = buildDatasets(portData);
-  const allDoys  = Array.from({length: 365}, (_, i) => i + 1);
-
-  // Update text
-  document.getElementById('chart-title').textContent =
-    `${portName} — port calls, current year vs historical average`;
-  document.getElementById('chart-subtitle').textContent =
-    `7-day rolling average (trailing)  ·  ${portData.current_year} vs ${portData.hist_label}`;
-  document.getElementById('legend-current').textContent =
-    `${portData.current_year} (current year)`;
-  document.getElementById('legend-hist-avg').textContent =
-    `Historical mean (${portData.hist_label})`;
-  document.getElementById('legend-band').textContent =
-    `± 1 SD`;
-  const caption = document.getElementById('chart-caption');
-  caption.innerHTML = `Sources: UN Global Platform; IMF PortWatch (<a href="https://portwatch.imf.org" target="_blank" rel="noopener" style="color:#007CE0;">portwatch.imf.org</a>). Data accessed from <a href="https://data.humdata.org/organization/portwatch" target="_blank" rel="noopener" style="color:#007CE0;">HDX</a>. Latest data: ${portData.latest_date}.`;
-
-  if (chartInstance) chartInstance.destroy();
-
-  const ctx = document.getElementById('chart').getContext('2d');
-  chartInstance = new Chart(ctx, {
-    type: 'line',
-    data: { labels: allDoys, datasets },
-    options: {
-      animation: false,
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: { mode: 'index', intersect: false },
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            title: ctx => {
-              const doy = Number(ctx[0].label);
-              const d = new Date(portData.current_year, 0, doy);
-              return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
-            },
-            label: ctx => {
-              if (ctx.dataset.label.startsWith('_')) return null;
-              const v = ctx.raw;
-              if (v === null) return null;
-              return `${ctx.dataset.label}: ${v.toFixed(1)}`;
-            },
+function chartOptions(entry, yLabel) {
+  return {
+    animation: false,
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          title: ctx => {
+            const doy = Number(ctx[0].label);
+            const d = new Date(entry.current_year, 0, doy);
+            return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
           },
-          filter: item => !item.dataset.label.startsWith('_'),
+          label: ctx => {
+            if (ctx.dataset.label.startsWith('_')) return null;
+            const v = ctx.raw;
+            if (v === null) return null;
+            return `${ctx.dataset.label}: ${v.toFixed(1)}`;
+          },
         },
-      },
-      scales: {
-        x: {
-          type: 'linear',
-          min: 1,
-          max: 365,
-          ticks: {
-            font: { family: "'Source Sans 3', sans-serif", size: 11 },
-            color: '#888',
-            callback: (val) => {
-              const idx = MONTH_DOYS.indexOf(val);
-              return idx >= 0 ? MONTH_LABELS[idx] : '';
-            },
-            maxRotation: 0,
-            autoSkip: false,
-          },
-          afterBuildTicks: axis => { axis.ticks = MONTH_DOYS.map(v => ({ value: v })); },
-          grid: { color: '#f0f0f0' },
-        },
-        y: {
-          min: 0,
-          ticks: {
-            font: { family: "'Source Sans 3', sans-serif", size: 11 },
-            color: '#888',
-          },
-          title: {
-            display: true,
-            text: 'Port calls (7-day rolling avg)',
-            font: { family: "'Source Sans 3', sans-serif", size: 11 },
-            color: '#888',
-          },
-          grid: { color: '#f0f0f0' },
-        },
+        filter: item => !item.dataset.label.startsWith('_'),
       },
     },
+    scales: {
+      x: {
+        type: 'linear', min: 1, max: 365,
+        ticks: {
+          font: { family: "'Source Sans 3', sans-serif", size: 11 },
+          color: '#888',
+          callback: val => { const i = MONTH_DOYS.indexOf(val); return i >= 0 ? MONTH_LABELS[i] : ''; },
+          maxRotation: 0, autoSkip: false,
+        },
+        afterBuildTicks: axis => { axis.ticks = MONTH_DOYS.map(v => ({ value: v })); },
+        grid: { color: '#f0f0f0' },
+      },
+      y: {
+        min: 0,
+        ticks: { font: { family: "'Source Sans 3', sans-serif", size: 11 }, color: '#888' },
+        title: { display: true, text: yLabel, font: { family: "'Source Sans 3', sans-serif", size: 11 }, color: '#888' },
+        grid: { color: '#f0f0f0' },
+      },
+    },
+  };
+}
+
+function renderChart(key, name, entry, yLabel) {
+  const ids = {
+    title: `${key}-chart-title`, subtitle: `${key}-chart-subtitle`,
+    legendCurrent: `${key}-legend-current`, legendHist: `${key}-legend-hist-avg`,
+    caption: `${key}-chart-caption`, canvas: `${key}-chart`,
+  };
+
+  document.getElementById(ids.title).textContent =
+    `${name} — ${key === 'port' ? 'port calls' : 'chokepoint transits'}, current year vs historical average`;
+  document.getElementById(ids.subtitle).textContent =
+    `7-day rolling average (trailing)  ·  ${entry.current_year} vs ${entry.hist_label}`;
+  document.getElementById(ids.legendCurrent).textContent = `${entry.current_year} (current year)`;
+  document.getElementById(ids.legendHist).textContent    = `Historical mean (${entry.hist_label})`;
+  document.getElementById(ids.caption).innerHTML =
+    `Sources: UN Global Platform; IMF PortWatch (<a href="https://portwatch.imf.org" target="_blank" rel="noopener" style="color:#007CE0;">portwatch.imf.org</a>). Data accessed from <a href="https://data.humdata.org/organization/portwatch" target="_blank" rel="noopener" style="color:#007CE0;">HDX</a>. Latest data: ${entry.latest_date}.`;
+
+  if (charts[key]) charts[key].destroy();
+  const ctx = document.getElementById(ids.canvas).getContext('2d');
+  charts[key] = new Chart(ctx, {
+    type: 'line',
+    data: { labels: Array.from({length: 365}, (_, i) => i + 1), datasets: buildDatasets(entry) },
+    options: chartOptions(entry, yLabel),
   });
 }
 
@@ -316,25 +357,34 @@ async function init() {
   try {
     data = await loadData();
   } catch (e) {
-    document.querySelector('.chart-card').innerHTML =
-      `<p style="color:#F2645A;padding:1rem">Failed to load data/ports.json. Make sure you are running the server from inside the <code>dashboard/</code> directory.</p>`;
+    document.body.innerHTML += `<p style="color:#F2645A;padding:1rem">Failed to load data/ports.json. Make sure you are running the server from the project directory.</p>`;
     console.error(e);
     return;
   }
 
-  const select = document.getElementById('port-select');
-  data.ports.forEach(port => {
+  // Port calls
+  const portSelect = document.getElementById('port-select');
+  data.ports.forEach(p => {
     const opt = document.createElement('option');
-    opt.value = port;
-    opt.textContent = port;
-    select.appendChild(opt);
+    opt.value = opt.textContent = p;
+    portSelect.appendChild(opt);
   });
+  renderChart('port', data.ports[0], data.port_data[data.ports[0]], 'Port calls (7-day rolling avg)');
+  portSelect.addEventListener('change', () =>
+    renderChart('port', portSelect.value, data.port_data[portSelect.value], 'Port calls (7-day rolling avg)')
+  );
 
-  renderChart(data.ports[0], data.data[data.ports[0]]);
-
-  select.addEventListener('change', () => {
-    renderChart(select.value, data.data[select.value]);
+  // Strait transit calls
+  const straitSelect = document.getElementById('strait-select');
+  data.straits.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = opt.textContent = s;
+    straitSelect.appendChild(opt);
   });
+  renderChart('strait', data.straits[0], data.strait_data[data.straits[0]], 'Transit calls (7-day rolling avg)');
+  straitSelect.addEventListener('change', () =>
+    renderChart('strait', straitSelect.value, data.strait_data[straitSelect.value], 'Transit calls (7-day rolling avg)')
+  );
 }
 
 init();

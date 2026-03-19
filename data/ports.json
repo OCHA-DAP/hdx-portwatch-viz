@@ -4,9 +4,9 @@
     "Mombasa, Kenya",
     "Salalah, Oman",
     "Djibouti, Djibouti",
-    "Sudan, Port Sudan"
+    "Port Sudan, Sudan"
   ],
-  "data": {
+  "port_data": {
     "Beirut, Lebanon": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
@@ -9947,7 +9947,7 @@
         }
       ]
     },
-    "Sudan, Port Sudan": {
+    "Port Sudan, Sudan": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
       "latest_date": "13 Mar 2026",
@@ -12429,6 +12429,2504 @@
         {
           "doy": 72,
           "roll7": 1.86
+        }
+      ]
+    }
+  },
+  "straits": [
+    "Strait of Hormuz"
+  ],
+  "strait_data": {
+    "Strait of Hormuz": {
+      "current_year": 2026,
+      "hist_label": "2019\u20132025",
+      "latest_date": "15 Mar 2026",
+      "hist": [
+        {
+          "doy": 1,
+          "hist_avg": 77.04,
+          "upper": 86.4,
+          "lower": 67.68
+        },
+        {
+          "doy": 2,
+          "hist_avg": 76.12,
+          "upper": 86.61,
+          "lower": 65.63
+        },
+        {
+          "doy": 3,
+          "hist_avg": 75.49,
+          "upper": 86.2,
+          "lower": 64.78
+        },
+        {
+          "doy": 4,
+          "hist_avg": 75.47,
+          "upper": 87.85,
+          "lower": 63.09
+        },
+        {
+          "doy": 5,
+          "hist_avg": 75.31,
+          "upper": 86.15,
+          "lower": 64.46
+        },
+        {
+          "doy": 6,
+          "hist_avg": 75.16,
+          "upper": 86.5,
+          "lower": 63.82
+        },
+        {
+          "doy": 7,
+          "hist_avg": 74.57,
+          "upper": 86.43,
+          "lower": 62.71
+        },
+        {
+          "doy": 8,
+          "hist_avg": 74.73,
+          "upper": 87.75,
+          "lower": 61.72
+        },
+        {
+          "doy": 9,
+          "hist_avg": 76.04,
+          "upper": 88.49,
+          "lower": 63.59
+        },
+        {
+          "doy": 10,
+          "hist_avg": 77.24,
+          "upper": 89.88,
+          "lower": 64.61
+        },
+        {
+          "doy": 11,
+          "hist_avg": 76.94,
+          "upper": 88.98,
+          "lower": 64.9
+        },
+        {
+          "doy": 12,
+          "hist_avg": 76.94,
+          "upper": 89.65,
+          "lower": 64.23
+        },
+        {
+          "doy": 13,
+          "hist_avg": 77.73,
+          "upper": 90.26,
+          "lower": 65.21
+        },
+        {
+          "doy": 14,
+          "hist_avg": 79.82,
+          "upper": 91.74,
+          "lower": 67.89
+        },
+        {
+          "doy": 15,
+          "hist_avg": 80.1,
+          "upper": 91.66,
+          "lower": 68.54
+        },
+        {
+          "doy": 16,
+          "hist_avg": 79.31,
+          "upper": 90.38,
+          "lower": 68.23
+        },
+        {
+          "doy": 17,
+          "hist_avg": 78.33,
+          "upper": 89.43,
+          "lower": 67.22
+        },
+        {
+          "doy": 18,
+          "hist_avg": 78.29,
+          "upper": 90.1,
+          "lower": 66.47
+        },
+        {
+          "doy": 19,
+          "hist_avg": 78.98,
+          "upper": 91.41,
+          "lower": 66.55
+        },
+        {
+          "doy": 20,
+          "hist_avg": 79.1,
+          "upper": 91.57,
+          "lower": 66.63
+        },
+        {
+          "doy": 21,
+          "hist_avg": 78.45,
+          "upper": 91.34,
+          "lower": 65.55
+        },
+        {
+          "doy": 22,
+          "hist_avg": 79.14,
+          "upper": 92.64,
+          "lower": 65.65
+        },
+        {
+          "doy": 23,
+          "hist_avg": 80.37,
+          "upper": 93.78,
+          "lower": 66.95
+        },
+        {
+          "doy": 24,
+          "hist_avg": 80.96,
+          "upper": 94.09,
+          "lower": 67.83
+        },
+        {
+          "doy": 25,
+          "hist_avg": 81.76,
+          "upper": 94.53,
+          "lower": 68.98
+        },
+        {
+          "doy": 26,
+          "hist_avg": 80.94,
+          "upper": 93.28,
+          "lower": 68.6
+        },
+        {
+          "doy": 27,
+          "hist_avg": 79.49,
+          "upper": 92.7,
+          "lower": 66.28
+        },
+        {
+          "doy": 28,
+          "hist_avg": 80.08,
+          "upper": 94.22,
+          "lower": 65.94
+        },
+        {
+          "doy": 29,
+          "hist_avg": 79.59,
+          "upper": 94.35,
+          "lower": 64.84
+        },
+        {
+          "doy": 30,
+          "hist_avg": 78.73,
+          "upper": 92.79,
+          "lower": 64.68
+        },
+        {
+          "doy": 31,
+          "hist_avg": 78.86,
+          "upper": 92.98,
+          "lower": 64.73
+        },
+        {
+          "doy": 32,
+          "hist_avg": 78.49,
+          "upper": 92.36,
+          "lower": 64.62
+        },
+        {
+          "doy": 33,
+          "hist_avg": 79.02,
+          "upper": 93.09,
+          "lower": 64.95
+        },
+        {
+          "doy": 34,
+          "hist_avg": 80.22,
+          "upper": 94.38,
+          "lower": 66.07
+        },
+        {
+          "doy": 35,
+          "hist_avg": 79.12,
+          "upper": 92.2,
+          "lower": 66.04
+        },
+        {
+          "doy": 36,
+          "hist_avg": 79.61,
+          "upper": 93.58,
+          "lower": 65.65
+        },
+        {
+          "doy": 37,
+          "hist_avg": 81.16,
+          "upper": 96.2,
+          "lower": 66.12
+        },
+        {
+          "doy": 38,
+          "hist_avg": 81.82,
+          "upper": 98.01,
+          "lower": 65.62
+        },
+        {
+          "doy": 39,
+          "hist_avg": 81.92,
+          "upper": 98.28,
+          "lower": 65.56
+        },
+        {
+          "doy": 40,
+          "hist_avg": 82.78,
+          "upper": 99.29,
+          "lower": 66.26
+        },
+        {
+          "doy": 41,
+          "hist_avg": 83.69,
+          "upper": 100.47,
+          "lower": 66.92
+        },
+        {
+          "doy": 42,
+          "hist_avg": 85.18,
+          "upper": 100.98,
+          "lower": 69.39
+        },
+        {
+          "doy": 43,
+          "hist_avg": 85.12,
+          "upper": 99.12,
+          "lower": 71.12
+        },
+        {
+          "doy": 44,
+          "hist_avg": 84.41,
+          "upper": 97.75,
+          "lower": 71.07
+        },
+        {
+          "doy": 45,
+          "hist_avg": 85.12,
+          "upper": 95.64,
+          "lower": 74.6
+        },
+        {
+          "doy": 46,
+          "hist_avg": 84.67,
+          "upper": 95.5,
+          "lower": 73.84
+        },
+        {
+          "doy": 47,
+          "hist_avg": 84.53,
+          "upper": 96.1,
+          "lower": 72.96
+        },
+        {
+          "doy": 48,
+          "hist_avg": 84.59,
+          "upper": 95.33,
+          "lower": 73.85
+        },
+        {
+          "doy": 49,
+          "hist_avg": 84.59,
+          "upper": 96.88,
+          "lower": 72.31
+        },
+        {
+          "doy": 50,
+          "hist_avg": 85.08,
+          "upper": 97.18,
+          "lower": 72.99
+        },
+        {
+          "doy": 51,
+          "hist_avg": 83.88,
+          "upper": 96.4,
+          "lower": 71.35
+        },
+        {
+          "doy": 52,
+          "hist_avg": 82.24,
+          "upper": 96.8,
+          "lower": 67.69
+        },
+        {
+          "doy": 53,
+          "hist_avg": 81.98,
+          "upper": 96.86,
+          "lower": 67.1
+        },
+        {
+          "doy": 54,
+          "hist_avg": 81.45,
+          "upper": 95.7,
+          "lower": 67.2
+        },
+        {
+          "doy": 55,
+          "hist_avg": 79.22,
+          "upper": 93.22,
+          "lower": 65.23
+        },
+        {
+          "doy": 56,
+          "hist_avg": 79.0,
+          "upper": 91.81,
+          "lower": 66.19
+        },
+        {
+          "doy": 57,
+          "hist_avg": 79.0,
+          "upper": 91.61,
+          "lower": 66.39
+        },
+        {
+          "doy": 58,
+          "hist_avg": 80.35,
+          "upper": 93.48,
+          "lower": 67.21
+        },
+        {
+          "doy": 59,
+          "hist_avg": 82.24,
+          "upper": 94.53,
+          "lower": 69.96
+        },
+        {
+          "doy": 60,
+          "hist_avg": 82.67,
+          "upper": 95.16,
+          "lower": 70.19
+        },
+        {
+          "doy": 61,
+          "hist_avg": 83.45,
+          "upper": 97.25,
+          "lower": 69.65
+        },
+        {
+          "doy": 62,
+          "hist_avg": 86.08,
+          "upper": 99.5,
+          "lower": 72.66
+        },
+        {
+          "doy": 63,
+          "hist_avg": 85.12,
+          "upper": 100.47,
+          "lower": 69.77
+        },
+        {
+          "doy": 64,
+          "hist_avg": 84.51,
+          "upper": 100.62,
+          "lower": 68.4
+        },
+        {
+          "doy": 65,
+          "hist_avg": 85.0,
+          "upper": 101.49,
+          "lower": 68.51
+        },
+        {
+          "doy": 66,
+          "hist_avg": 84.45,
+          "upper": 101.76,
+          "lower": 67.13
+        },
+        {
+          "doy": 67,
+          "hist_avg": 85.96,
+          "upper": 104.22,
+          "lower": 67.7
+        },
+        {
+          "doy": 68,
+          "hist_avg": 86.27,
+          "upper": 104.25,
+          "lower": 68.28
+        },
+        {
+          "doy": 69,
+          "hist_avg": 86.24,
+          "upper": 106.28,
+          "lower": 66.21
+        },
+        {
+          "doy": 70,
+          "hist_avg": 86.39,
+          "upper": 106.23,
+          "lower": 66.55
+        },
+        {
+          "doy": 71,
+          "hist_avg": 86.14,
+          "upper": 105.58,
+          "lower": 66.7
+        },
+        {
+          "doy": 72,
+          "hist_avg": 87.04,
+          "upper": 104.52,
+          "lower": 69.57
+        },
+        {
+          "doy": 73,
+          "hist_avg": 87.18,
+          "upper": 104.45,
+          "lower": 69.92
+        },
+        {
+          "doy": 74,
+          "hist_avg": 87.2,
+          "upper": 104.65,
+          "lower": 69.76
+        },
+        {
+          "doy": 75,
+          "hist_avg": 86.12,
+          "upper": 104.06,
+          "lower": 68.19
+        },
+        {
+          "doy": 76,
+          "hist_avg": 85.59,
+          "upper": 102.79,
+          "lower": 68.4
+        },
+        {
+          "doy": 77,
+          "hist_avg": 86.84,
+          "upper": 102.86,
+          "lower": 70.81
+        },
+        {
+          "doy": 78,
+          "hist_avg": 86.67,
+          "upper": 102.93,
+          "lower": 70.42
+        },
+        {
+          "doy": 79,
+          "hist_avg": 84.18,
+          "upper": 101.89,
+          "lower": 66.48
+        },
+        {
+          "doy": 80,
+          "hist_avg": 83.88,
+          "upper": 101.53,
+          "lower": 66.22
+        },
+        {
+          "doy": 81,
+          "hist_avg": 83.14,
+          "upper": 99.46,
+          "lower": 66.83
+        },
+        {
+          "doy": 82,
+          "hist_avg": 83.71,
+          "upper": 97.87,
+          "lower": 69.56
+        },
+        {
+          "doy": 83,
+          "hist_avg": 83.92,
+          "upper": 96.61,
+          "lower": 71.23
+        },
+        {
+          "doy": 84,
+          "hist_avg": 84.51,
+          "upper": 96.9,
+          "lower": 72.12
+        },
+        {
+          "doy": 85,
+          "hist_avg": 86.96,
+          "upper": 99.94,
+          "lower": 73.98
+        },
+        {
+          "doy": 86,
+          "hist_avg": 88.9,
+          "upper": 103.07,
+          "lower": 74.72
+        },
+        {
+          "doy": 87,
+          "hist_avg": 90.47,
+          "upper": 105.06,
+          "lower": 75.88
+        },
+        {
+          "doy": 88,
+          "hist_avg": 91.76,
+          "upper": 106.58,
+          "lower": 76.93
+        },
+        {
+          "doy": 89,
+          "hist_avg": 92.27,
+          "upper": 107.86,
+          "lower": 76.67
+        },
+        {
+          "doy": 90,
+          "hist_avg": 93.49,
+          "upper": 110.16,
+          "lower": 76.82
+        },
+        {
+          "doy": 91,
+          "hist_avg": 94.41,
+          "upper": 111.02,
+          "lower": 77.8
+        },
+        {
+          "doy": 92,
+          "hist_avg": 94.43,
+          "upper": 110.26,
+          "lower": 78.59
+        },
+        {
+          "doy": 93,
+          "hist_avg": 96.88,
+          "upper": 110.62,
+          "lower": 83.13
+        },
+        {
+          "doy": 94,
+          "hist_avg": 96.78,
+          "upper": 110.86,
+          "lower": 82.69
+        },
+        {
+          "doy": 95,
+          "hist_avg": 97.04,
+          "upper": 111.24,
+          "lower": 82.84
+        },
+        {
+          "doy": 96,
+          "hist_avg": 96.88,
+          "upper": 111.29,
+          "lower": 82.47
+        },
+        {
+          "doy": 97,
+          "hist_avg": 96.06,
+          "upper": 110.42,
+          "lower": 81.7
+        },
+        {
+          "doy": 98,
+          "hist_avg": 94.45,
+          "upper": 109.41,
+          "lower": 79.49
+        },
+        {
+          "doy": 99,
+          "hist_avg": 93.45,
+          "upper": 108.85,
+          "lower": 78.05
+        },
+        {
+          "doy": 100,
+          "hist_avg": 91.12,
+          "upper": 107.33,
+          "lower": 74.91
+        },
+        {
+          "doy": 101,
+          "hist_avg": 89.65,
+          "upper": 103.56,
+          "lower": 75.75
+        },
+        {
+          "doy": 102,
+          "hist_avg": 88.71,
+          "upper": 100.46,
+          "lower": 76.97
+        },
+        {
+          "doy": 103,
+          "hist_avg": 88.29,
+          "upper": 99.31,
+          "lower": 77.26
+        },
+        {
+          "doy": 104,
+          "hist_avg": 89.43,
+          "upper": 100.61,
+          "lower": 78.25
+        },
+        {
+          "doy": 105,
+          "hist_avg": 90.43,
+          "upper": 100.84,
+          "lower": 80.01
+        },
+        {
+          "doy": 106,
+          "hist_avg": 92.31,
+          "upper": 102.65,
+          "lower": 81.96
+        },
+        {
+          "doy": 107,
+          "hist_avg": 92.78,
+          "upper": 102.83,
+          "lower": 82.73
+        },
+        {
+          "doy": 108,
+          "hist_avg": 94.37,
+          "upper": 105.82,
+          "lower": 82.91
+        },
+        {
+          "doy": 109,
+          "hist_avg": 94.94,
+          "upper": 107.58,
+          "lower": 82.3
+        },
+        {
+          "doy": 110,
+          "hist_avg": 95.41,
+          "upper": 109.68,
+          "lower": 81.14
+        },
+        {
+          "doy": 111,
+          "hist_avg": 94.65,
+          "upper": 108.64,
+          "lower": 80.67
+        },
+        {
+          "doy": 112,
+          "hist_avg": 94.02,
+          "upper": 109.1,
+          "lower": 78.94
+        },
+        {
+          "doy": 113,
+          "hist_avg": 92.69,
+          "upper": 105.9,
+          "lower": 79.49
+        },
+        {
+          "doy": 114,
+          "hist_avg": 91.49,
+          "upper": 104.51,
+          "lower": 78.47
+        },
+        {
+          "doy": 115,
+          "hist_avg": 90.94,
+          "upper": 104.2,
+          "lower": 77.68
+        },
+        {
+          "doy": 116,
+          "hist_avg": 91.22,
+          "upper": 103.66,
+          "lower": 78.79
+        },
+        {
+          "doy": 117,
+          "hist_avg": 91.31,
+          "upper": 102.23,
+          "lower": 80.38
+        },
+        {
+          "doy": 118,
+          "hist_avg": 90.45,
+          "upper": 101.62,
+          "lower": 79.28
+        },
+        {
+          "doy": 119,
+          "hist_avg": 90.88,
+          "upper": 101.94,
+          "lower": 79.82
+        },
+        {
+          "doy": 120,
+          "hist_avg": 91.69,
+          "upper": 104.05,
+          "lower": 79.34
+        },
+        {
+          "doy": 121,
+          "hist_avg": 93.41,
+          "upper": 104.07,
+          "lower": 82.74
+        },
+        {
+          "doy": 122,
+          "hist_avg": 94.31,
+          "upper": 103.48,
+          "lower": 85.13
+        },
+        {
+          "doy": 123,
+          "hist_avg": 94.31,
+          "upper": 103.43,
+          "lower": 85.18
+        },
+        {
+          "doy": 124,
+          "hist_avg": 94.84,
+          "upper": 104.13,
+          "lower": 85.55
+        },
+        {
+          "doy": 125,
+          "hist_avg": 96.57,
+          "upper": 105.58,
+          "lower": 87.56
+        },
+        {
+          "doy": 126,
+          "hist_avg": 98.24,
+          "upper": 107.01,
+          "lower": 89.48
+        },
+        {
+          "doy": 127,
+          "hist_avg": 97.04,
+          "upper": 104.55,
+          "lower": 89.53
+        },
+        {
+          "doy": 128,
+          "hist_avg": 96.67,
+          "upper": 106.68,
+          "lower": 86.67
+        },
+        {
+          "doy": 129,
+          "hist_avg": 95.65,
+          "upper": 107.41,
+          "lower": 83.9
+        },
+        {
+          "doy": 130,
+          "hist_avg": 95.55,
+          "upper": 108.09,
+          "lower": 83.01
+        },
+        {
+          "doy": 131,
+          "hist_avg": 96.04,
+          "upper": 108.25,
+          "lower": 83.83
+        },
+        {
+          "doy": 132,
+          "hist_avg": 95.29,
+          "upper": 108.13,
+          "lower": 82.44
+        },
+        {
+          "doy": 133,
+          "hist_avg": 93.57,
+          "upper": 107.64,
+          "lower": 79.5
+        },
+        {
+          "doy": 134,
+          "hist_avg": 95.06,
+          "upper": 109.87,
+          "lower": 80.26
+        },
+        {
+          "doy": 135,
+          "hist_avg": 94.82,
+          "upper": 108.35,
+          "lower": 81.28
+        },
+        {
+          "doy": 136,
+          "hist_avg": 94.47,
+          "upper": 106.84,
+          "lower": 82.1
+        },
+        {
+          "doy": 137,
+          "hist_avg": 94.16,
+          "upper": 107.86,
+          "lower": 80.47
+        },
+        {
+          "doy": 138,
+          "hist_avg": 93.88,
+          "upper": 107.33,
+          "lower": 80.42
+        },
+        {
+          "doy": 139,
+          "hist_avg": 93.76,
+          "upper": 108.42,
+          "lower": 79.09
+        },
+        {
+          "doy": 140,
+          "hist_avg": 93.82,
+          "upper": 107.52,
+          "lower": 80.11
+        },
+        {
+          "doy": 141,
+          "hist_avg": 93.65,
+          "upper": 106.85,
+          "lower": 80.46
+        },
+        {
+          "doy": 142,
+          "hist_avg": 93.71,
+          "upper": 107.64,
+          "lower": 79.79
+        },
+        {
+          "doy": 143,
+          "hist_avg": 95.39,
+          "upper": 110.34,
+          "lower": 80.43
+        },
+        {
+          "doy": 144,
+          "hist_avg": 96.33,
+          "upper": 109.85,
+          "lower": 82.81
+        },
+        {
+          "doy": 145,
+          "hist_avg": 95.82,
+          "upper": 109.57,
+          "lower": 82.06
+        },
+        {
+          "doy": 146,
+          "hist_avg": 96.12,
+          "upper": 107.99,
+          "lower": 84.26
+        },
+        {
+          "doy": 147,
+          "hist_avg": 96.86,
+          "upper": 108.21,
+          "lower": 85.51
+        },
+        {
+          "doy": 148,
+          "hist_avg": 97.22,
+          "upper": 108.72,
+          "lower": 85.73
+        },
+        {
+          "doy": 149,
+          "hist_avg": 97.86,
+          "upper": 107.89,
+          "lower": 87.82
+        },
+        {
+          "doy": 150,
+          "hist_avg": 97.61,
+          "upper": 106.37,
+          "lower": 88.85
+        },
+        {
+          "doy": 151,
+          "hist_avg": 96.71,
+          "upper": 105.41,
+          "lower": 88.02
+        },
+        {
+          "doy": 152,
+          "hist_avg": 97.47,
+          "upper": 106.92,
+          "lower": 88.02
+        },
+        {
+          "doy": 153,
+          "hist_avg": 97.51,
+          "upper": 107.53,
+          "lower": 87.49
+        },
+        {
+          "doy": 154,
+          "hist_avg": 96.82,
+          "upper": 107.62,
+          "lower": 86.01
+        },
+        {
+          "doy": 155,
+          "hist_avg": 97.0,
+          "upper": 108.16,
+          "lower": 85.84
+        },
+        {
+          "doy": 156,
+          "hist_avg": 97.61,
+          "upper": 109.08,
+          "lower": 86.14
+        },
+        {
+          "doy": 157,
+          "hist_avg": 97.27,
+          "upper": 110.4,
+          "lower": 84.13
+        },
+        {
+          "doy": 158,
+          "hist_avg": 97.39,
+          "upper": 111.12,
+          "lower": 83.65
+        },
+        {
+          "doy": 159,
+          "hist_avg": 96.98,
+          "upper": 110.14,
+          "lower": 83.82
+        },
+        {
+          "doy": 160,
+          "hist_avg": 96.47,
+          "upper": 108.97,
+          "lower": 83.97
+        },
+        {
+          "doy": 161,
+          "hist_avg": 96.84,
+          "upper": 107.97,
+          "lower": 85.7
+        },
+        {
+          "doy": 162,
+          "hist_avg": 94.55,
+          "upper": 104.91,
+          "lower": 84.19
+        },
+        {
+          "doy": 163,
+          "hist_avg": 93.65,
+          "upper": 104.5,
+          "lower": 82.81
+        },
+        {
+          "doy": 164,
+          "hist_avg": 93.27,
+          "upper": 103.24,
+          "lower": 83.29
+        },
+        {
+          "doy": 165,
+          "hist_avg": 93.78,
+          "upper": 103.0,
+          "lower": 84.55
+        },
+        {
+          "doy": 166,
+          "hist_avg": 93.8,
+          "upper": 102.81,
+          "lower": 84.78
+        },
+        {
+          "doy": 167,
+          "hist_avg": 93.88,
+          "upper": 102.59,
+          "lower": 85.17
+        },
+        {
+          "doy": 168,
+          "hist_avg": 93.49,
+          "upper": 102.42,
+          "lower": 84.56
+        },
+        {
+          "doy": 169,
+          "hist_avg": 95.49,
+          "upper": 104.22,
+          "lower": 86.76
+        },
+        {
+          "doy": 170,
+          "hist_avg": 96.24,
+          "upper": 104.38,
+          "lower": 88.11
+        },
+        {
+          "doy": 171,
+          "hist_avg": 96.1,
+          "upper": 104.36,
+          "lower": 87.84
+        },
+        {
+          "doy": 172,
+          "hist_avg": 96.37,
+          "upper": 104.11,
+          "lower": 88.62
+        },
+        {
+          "doy": 173,
+          "hist_avg": 96.65,
+          "upper": 104.98,
+          "lower": 88.33
+        },
+        {
+          "doy": 174,
+          "hist_avg": 96.43,
+          "upper": 105.63,
+          "lower": 87.22
+        },
+        {
+          "doy": 175,
+          "hist_avg": 97.78,
+          "upper": 107.49,
+          "lower": 88.07
+        },
+        {
+          "doy": 176,
+          "hist_avg": 97.49,
+          "upper": 106.68,
+          "lower": 88.3
+        },
+        {
+          "doy": 177,
+          "hist_avg": 95.71,
+          "upper": 105.93,
+          "lower": 85.5
+        },
+        {
+          "doy": 178,
+          "hist_avg": 96.14,
+          "upper": 105.71,
+          "lower": 86.58
+        },
+        {
+          "doy": 179,
+          "hist_avg": 96.49,
+          "upper": 106.55,
+          "lower": 86.43
+        },
+        {
+          "doy": 180,
+          "hist_avg": 96.94,
+          "upper": 106.49,
+          "lower": 87.38
+        },
+        {
+          "doy": 181,
+          "hist_avg": 97.16,
+          "upper": 106.12,
+          "lower": 88.21
+        },
+        {
+          "doy": 182,
+          "hist_avg": 95.92,
+          "upper": 105.56,
+          "lower": 86.28
+        },
+        {
+          "doy": 183,
+          "hist_avg": 95.14,
+          "upper": 104.08,
+          "lower": 86.21
+        },
+        {
+          "doy": 184,
+          "hist_avg": 95.57,
+          "upper": 104.27,
+          "lower": 86.87
+        },
+        {
+          "doy": 185,
+          "hist_avg": 95.35,
+          "upper": 104.51,
+          "lower": 86.19
+        },
+        {
+          "doy": 186,
+          "hist_avg": 93.61,
+          "upper": 102.99,
+          "lower": 84.24
+        },
+        {
+          "doy": 187,
+          "hist_avg": 93.27,
+          "upper": 102.41,
+          "lower": 84.12
+        },
+        {
+          "doy": 188,
+          "hist_avg": 92.78,
+          "upper": 102.47,
+          "lower": 83.08
+        },
+        {
+          "doy": 189,
+          "hist_avg": 93.98,
+          "upper": 103.81,
+          "lower": 84.15
+        },
+        {
+          "doy": 190,
+          "hist_avg": 94.41,
+          "upper": 105.19,
+          "lower": 83.63
+        },
+        {
+          "doy": 191,
+          "hist_avg": 94.57,
+          "upper": 105.87,
+          "lower": 83.27
+        },
+        {
+          "doy": 192,
+          "hist_avg": 94.18,
+          "upper": 105.33,
+          "lower": 83.04
+        },
+        {
+          "doy": 193,
+          "hist_avg": 95.16,
+          "upper": 107.52,
+          "lower": 82.8
+        },
+        {
+          "doy": 194,
+          "hist_avg": 94.2,
+          "upper": 106.34,
+          "lower": 82.07
+        },
+        {
+          "doy": 195,
+          "hist_avg": 94.96,
+          "upper": 107.79,
+          "lower": 82.13
+        },
+        {
+          "doy": 196,
+          "hist_avg": 93.59,
+          "upper": 105.15,
+          "lower": 82.03
+        },
+        {
+          "doy": 197,
+          "hist_avg": 92.76,
+          "upper": 103.76,
+          "lower": 81.75
+        },
+        {
+          "doy": 198,
+          "hist_avg": 92.65,
+          "upper": 103.15,
+          "lower": 82.16
+        },
+        {
+          "doy": 199,
+          "hist_avg": 91.86,
+          "upper": 102.12,
+          "lower": 81.6
+        },
+        {
+          "doy": 200,
+          "hist_avg": 91.63,
+          "upper": 100.63,
+          "lower": 82.64
+        },
+        {
+          "doy": 201,
+          "hist_avg": 92.61,
+          "upper": 101.7,
+          "lower": 83.52
+        },
+        {
+          "doy": 202,
+          "hist_avg": 91.57,
+          "upper": 99.22,
+          "lower": 83.93
+        },
+        {
+          "doy": 203,
+          "hist_avg": 92.0,
+          "upper": 100.47,
+          "lower": 83.53
+        },
+        {
+          "doy": 204,
+          "hist_avg": 91.47,
+          "upper": 99.99,
+          "lower": 82.95
+        },
+        {
+          "doy": 205,
+          "hist_avg": 92.33,
+          "upper": 101.6,
+          "lower": 83.06
+        },
+        {
+          "doy": 206,
+          "hist_avg": 93.67,
+          "upper": 102.5,
+          "lower": 84.85
+        },
+        {
+          "doy": 207,
+          "hist_avg": 94.02,
+          "upper": 103.01,
+          "lower": 85.03
+        },
+        {
+          "doy": 208,
+          "hist_avg": 93.92,
+          "upper": 103.28,
+          "lower": 84.56
+        },
+        {
+          "doy": 209,
+          "hist_avg": 95.22,
+          "upper": 105.02,
+          "lower": 85.43
+        },
+        {
+          "doy": 210,
+          "hist_avg": 95.53,
+          "upper": 103.83,
+          "lower": 87.23
+        },
+        {
+          "doy": 211,
+          "hist_avg": 97.04,
+          "upper": 105.37,
+          "lower": 88.72
+        },
+        {
+          "doy": 212,
+          "hist_avg": 96.39,
+          "upper": 103.7,
+          "lower": 89.08
+        },
+        {
+          "doy": 213,
+          "hist_avg": 96.65,
+          "upper": 103.24,
+          "lower": 90.07
+        },
+        {
+          "doy": 214,
+          "hist_avg": 96.0,
+          "upper": 102.18,
+          "lower": 89.82
+        },
+        {
+          "doy": 215,
+          "hist_avg": 95.47,
+          "upper": 100.66,
+          "lower": 90.28
+        },
+        {
+          "doy": 216,
+          "hist_avg": 95.45,
+          "upper": 100.75,
+          "lower": 90.15
+        },
+        {
+          "doy": 217,
+          "hist_avg": 95.02,
+          "upper": 103.1,
+          "lower": 86.94
+        },
+        {
+          "doy": 218,
+          "hist_avg": 94.65,
+          "upper": 103.38,
+          "lower": 85.92
+        },
+        {
+          "doy": 219,
+          "hist_avg": 95.63,
+          "upper": 105.76,
+          "lower": 85.5
+        },
+        {
+          "doy": 220,
+          "hist_avg": 94.92,
+          "upper": 105.48,
+          "lower": 84.35
+        },
+        {
+          "doy": 221,
+          "hist_avg": 94.8,
+          "upper": 105.34,
+          "lower": 84.25
+        },
+        {
+          "doy": 222,
+          "hist_avg": 94.67,
+          "upper": 106.4,
+          "lower": 82.95
+        },
+        {
+          "doy": 223,
+          "hist_avg": 94.55,
+          "upper": 107.36,
+          "lower": 81.74
+        },
+        {
+          "doy": 224,
+          "hist_avg": 93.16,
+          "upper": 105.13,
+          "lower": 81.19
+        },
+        {
+          "doy": 225,
+          "hist_avg": 93.04,
+          "upper": 105.22,
+          "lower": 80.86
+        },
+        {
+          "doy": 226,
+          "hist_avg": 91.69,
+          "upper": 104.05,
+          "lower": 79.34
+        },
+        {
+          "doy": 227,
+          "hist_avg": 92.08,
+          "upper": 104.37,
+          "lower": 79.79
+        },
+        {
+          "doy": 228,
+          "hist_avg": 91.35,
+          "upper": 104.6,
+          "lower": 78.09
+        },
+        {
+          "doy": 229,
+          "hist_avg": 91.31,
+          "upper": 103.59,
+          "lower": 79.02
+        },
+        {
+          "doy": 230,
+          "hist_avg": 91.76,
+          "upper": 103.14,
+          "lower": 80.37
+        },
+        {
+          "doy": 231,
+          "hist_avg": 92.92,
+          "upper": 104.49,
+          "lower": 81.35
+        },
+        {
+          "doy": 232,
+          "hist_avg": 93.1,
+          "upper": 104.6,
+          "lower": 81.61
+        },
+        {
+          "doy": 233,
+          "hist_avg": 94.41,
+          "upper": 106.02,
+          "lower": 82.8
+        },
+        {
+          "doy": 234,
+          "hist_avg": 95.08,
+          "upper": 108.95,
+          "lower": 81.21
+        },
+        {
+          "doy": 235,
+          "hist_avg": 97.0,
+          "upper": 110.99,
+          "lower": 83.01
+        },
+        {
+          "doy": 236,
+          "hist_avg": 97.94,
+          "upper": 111.65,
+          "lower": 84.23
+        },
+        {
+          "doy": 237,
+          "hist_avg": 97.12,
+          "upper": 111.05,
+          "lower": 83.2
+        },
+        {
+          "doy": 238,
+          "hist_avg": 97.47,
+          "upper": 110.77,
+          "lower": 84.17
+        },
+        {
+          "doy": 239,
+          "hist_avg": 97.02,
+          "upper": 108.94,
+          "lower": 85.1
+        },
+        {
+          "doy": 240,
+          "hist_avg": 96.06,
+          "upper": 107.82,
+          "lower": 84.3
+        },
+        {
+          "doy": 241,
+          "hist_avg": 95.61,
+          "upper": 107.0,
+          "lower": 84.22
+        },
+        {
+          "doy": 242,
+          "hist_avg": 95.78,
+          "upper": 107.5,
+          "lower": 84.05
+        },
+        {
+          "doy": 243,
+          "hist_avg": 95.04,
+          "upper": 106.95,
+          "lower": 83.13
+        },
+        {
+          "doy": 244,
+          "hist_avg": 94.73,
+          "upper": 106.15,
+          "lower": 83.32
+        },
+        {
+          "doy": 245,
+          "hist_avg": 94.39,
+          "upper": 105.27,
+          "lower": 83.5
+        },
+        {
+          "doy": 246,
+          "hist_avg": 94.86,
+          "upper": 107.11,
+          "lower": 82.61
+        },
+        {
+          "doy": 247,
+          "hist_avg": 94.92,
+          "upper": 106.7,
+          "lower": 83.14
+        },
+        {
+          "doy": 248,
+          "hist_avg": 94.24,
+          "upper": 105.9,
+          "lower": 82.59
+        },
+        {
+          "doy": 249,
+          "hist_avg": 93.04,
+          "upper": 103.07,
+          "lower": 83.01
+        },
+        {
+          "doy": 250,
+          "hist_avg": 93.08,
+          "upper": 103.06,
+          "lower": 83.11
+        },
+        {
+          "doy": 251,
+          "hist_avg": 94.73,
+          "upper": 104.61,
+          "lower": 84.86
+        },
+        {
+          "doy": 252,
+          "hist_avg": 94.69,
+          "upper": 105.42,
+          "lower": 83.97
+        },
+        {
+          "doy": 253,
+          "hist_avg": 95.14,
+          "upper": 106.01,
+          "lower": 84.28
+        },
+        {
+          "doy": 254,
+          "hist_avg": 94.67,
+          "upper": 104.31,
+          "lower": 85.03
+        },
+        {
+          "doy": 255,
+          "hist_avg": 96.1,
+          "upper": 104.45,
+          "lower": 87.76
+        },
+        {
+          "doy": 256,
+          "hist_avg": 96.43,
+          "upper": 105.65,
+          "lower": 87.21
+        },
+        {
+          "doy": 257,
+          "hist_avg": 96.24,
+          "upper": 105.48,
+          "lower": 87.01
+        },
+        {
+          "doy": 258,
+          "hist_avg": 95.16,
+          "upper": 103.61,
+          "lower": 86.71
+        },
+        {
+          "doy": 259,
+          "hist_avg": 95.73,
+          "upper": 103.95,
+          "lower": 87.52
+        },
+        {
+          "doy": 260,
+          "hist_avg": 95.1,
+          "upper": 104.09,
+          "lower": 86.11
+        },
+        {
+          "doy": 261,
+          "hist_avg": 96.65,
+          "upper": 106.57,
+          "lower": 86.74
+        },
+        {
+          "doy": 262,
+          "hist_avg": 96.06,
+          "upper": 106.99,
+          "lower": 85.13
+        },
+        {
+          "doy": 263,
+          "hist_avg": 96.59,
+          "upper": 107.07,
+          "lower": 86.11
+        },
+        {
+          "doy": 264,
+          "hist_avg": 96.51,
+          "upper": 107.27,
+          "lower": 85.75
+        },
+        {
+          "doy": 265,
+          "hist_avg": 97.73,
+          "upper": 108.83,
+          "lower": 86.64
+        },
+        {
+          "doy": 266,
+          "hist_avg": 98.96,
+          "upper": 109.72,
+          "lower": 88.2
+        },
+        {
+          "doy": 267,
+          "hist_avg": 98.86,
+          "upper": 109.82,
+          "lower": 87.89
+        },
+        {
+          "doy": 268,
+          "hist_avg": 98.47,
+          "upper": 108.46,
+          "lower": 88.48
+        },
+        {
+          "doy": 269,
+          "hist_avg": 97.86,
+          "upper": 108.37,
+          "lower": 87.35
+        },
+        {
+          "doy": 270,
+          "hist_avg": 97.33,
+          "upper": 109.94,
+          "lower": 84.71
+        },
+        {
+          "doy": 271,
+          "hist_avg": 97.78,
+          "upper": 110.74,
+          "lower": 84.81
+        },
+        {
+          "doy": 272,
+          "hist_avg": 96.41,
+          "upper": 109.42,
+          "lower": 83.39
+        },
+        {
+          "doy": 273,
+          "hist_avg": 94.39,
+          "upper": 107.08,
+          "lower": 81.7
+        },
+        {
+          "doy": 274,
+          "hist_avg": 94.04,
+          "upper": 106.31,
+          "lower": 81.77
+        },
+        {
+          "doy": 275,
+          "hist_avg": 93.94,
+          "upper": 106.67,
+          "lower": 81.21
+        },
+        {
+          "doy": 276,
+          "hist_avg": 94.22,
+          "upper": 106.35,
+          "lower": 82.1
+        },
+        {
+          "doy": 277,
+          "hist_avg": 94.29,
+          "upper": 105.29,
+          "lower": 83.28
+        },
+        {
+          "doy": 278,
+          "hist_avg": 93.1,
+          "upper": 103.78,
+          "lower": 82.43
+        },
+        {
+          "doy": 279,
+          "hist_avg": 92.67,
+          "upper": 104.49,
+          "lower": 80.86
+        },
+        {
+          "doy": 280,
+          "hist_avg": 92.98,
+          "upper": 106.43,
+          "lower": 79.53
+        },
+        {
+          "doy": 281,
+          "hist_avg": 94.0,
+          "upper": 108.06,
+          "lower": 79.94
+        },
+        {
+          "doy": 282,
+          "hist_avg": 92.86,
+          "upper": 105.36,
+          "lower": 80.35
+        },
+        {
+          "doy": 283,
+          "hist_avg": 92.39,
+          "upper": 104.3,
+          "lower": 80.47
+        },
+        {
+          "doy": 284,
+          "hist_avg": 91.61,
+          "upper": 102.83,
+          "lower": 80.39
+        },
+        {
+          "doy": 285,
+          "hist_avg": 92.06,
+          "upper": 103.43,
+          "lower": 80.7
+        },
+        {
+          "doy": 286,
+          "hist_avg": 92.41,
+          "upper": 102.66,
+          "lower": 82.16
+        },
+        {
+          "doy": 287,
+          "hist_avg": 92.37,
+          "upper": 101.25,
+          "lower": 83.49
+        },
+        {
+          "doy": 288,
+          "hist_avg": 91.71,
+          "upper": 99.78,
+          "lower": 83.65
+        },
+        {
+          "doy": 289,
+          "hist_avg": 91.24,
+          "upper": 98.5,
+          "lower": 83.99
+        },
+        {
+          "doy": 290,
+          "hist_avg": 91.37,
+          "upper": 99.82,
+          "lower": 82.91
+        },
+        {
+          "doy": 291,
+          "hist_avg": 92.53,
+          "upper": 100.27,
+          "lower": 84.79
+        },
+        {
+          "doy": 292,
+          "hist_avg": 93.31,
+          "upper": 101.44,
+          "lower": 85.17
+        },
+        {
+          "doy": 293,
+          "hist_avg": 92.92,
+          "upper": 100.58,
+          "lower": 85.26
+        },
+        {
+          "doy": 294,
+          "hist_avg": 92.59,
+          "upper": 102.69,
+          "lower": 82.49
+        },
+        {
+          "doy": 295,
+          "hist_avg": 92.0,
+          "upper": 103.54,
+          "lower": 80.46
+        },
+        {
+          "doy": 296,
+          "hist_avg": 92.51,
+          "upper": 103.9,
+          "lower": 81.13
+        },
+        {
+          "doy": 297,
+          "hist_avg": 92.59,
+          "upper": 102.76,
+          "lower": 82.43
+        },
+        {
+          "doy": 298,
+          "hist_avg": 90.88,
+          "upper": 101.59,
+          "lower": 80.16
+        },
+        {
+          "doy": 299,
+          "hist_avg": 89.69,
+          "upper": 99.03,
+          "lower": 80.35
+        },
+        {
+          "doy": 300,
+          "hist_avg": 89.0,
+          "upper": 98.22,
+          "lower": 79.78
+        },
+        {
+          "doy": 301,
+          "hist_avg": 88.57,
+          "upper": 97.66,
+          "lower": 79.48
+        },
+        {
+          "doy": 302,
+          "hist_avg": 86.8,
+          "upper": 95.5,
+          "lower": 78.09
+        },
+        {
+          "doy": 303,
+          "hist_avg": 86.63,
+          "upper": 94.83,
+          "lower": 78.43
+        },
+        {
+          "doy": 304,
+          "hist_avg": 84.96,
+          "upper": 96.24,
+          "lower": 73.68
+        },
+        {
+          "doy": 305,
+          "hist_avg": 83.76,
+          "upper": 95.09,
+          "lower": 72.42
+        },
+        {
+          "doy": 306,
+          "hist_avg": 83.76,
+          "upper": 96.39,
+          "lower": 71.12
+        },
+        {
+          "doy": 307,
+          "hist_avg": 83.31,
+          "upper": 95.44,
+          "lower": 71.17
+        },
+        {
+          "doy": 308,
+          "hist_avg": 82.61,
+          "upper": 95.33,
+          "lower": 69.89
+        },
+        {
+          "doy": 309,
+          "hist_avg": 85.65,
+          "upper": 97.98,
+          "lower": 73.32
+        },
+        {
+          "doy": 310,
+          "hist_avg": 85.65,
+          "upper": 97.44,
+          "lower": 73.87
+        },
+        {
+          "doy": 311,
+          "hist_avg": 86.29,
+          "upper": 96.4,
+          "lower": 76.17
+        },
+        {
+          "doy": 312,
+          "hist_avg": 86.63,
+          "upper": 97.6,
+          "lower": 75.67
+        },
+        {
+          "doy": 313,
+          "hist_avg": 85.31,
+          "upper": 98.28,
+          "lower": 72.33
+        },
+        {
+          "doy": 314,
+          "hist_avg": 84.57,
+          "upper": 97.26,
+          "lower": 71.88
+        },
+        {
+          "doy": 315,
+          "hist_avg": 84.43,
+          "upper": 96.88,
+          "lower": 71.98
+        },
+        {
+          "doy": 316,
+          "hist_avg": 81.82,
+          "upper": 94.97,
+          "lower": 68.66
+        },
+        {
+          "doy": 317,
+          "hist_avg": 81.0,
+          "upper": 95.66,
+          "lower": 66.34
+        },
+        {
+          "doy": 318,
+          "hist_avg": 80.98,
+          "upper": 96.44,
+          "lower": 65.52
+        },
+        {
+          "doy": 319,
+          "hist_avg": 81.24,
+          "upper": 96.73,
+          "lower": 65.76
+        },
+        {
+          "doy": 320,
+          "hist_avg": 81.9,
+          "upper": 96.96,
+          "lower": 66.84
+        },
+        {
+          "doy": 321,
+          "hist_avg": 83.04,
+          "upper": 98.01,
+          "lower": 68.07
+        },
+        {
+          "doy": 322,
+          "hist_avg": 82.02,
+          "upper": 96.86,
+          "lower": 67.18
+        },
+        {
+          "doy": 323,
+          "hist_avg": 81.82,
+          "upper": 96.31,
+          "lower": 67.32
+        },
+        {
+          "doy": 324,
+          "hist_avg": 80.84,
+          "upper": 94.46,
+          "lower": 67.22
+        },
+        {
+          "doy": 325,
+          "hist_avg": 79.67,
+          "upper": 93.85,
+          "lower": 65.5
+        },
+        {
+          "doy": 326,
+          "hist_avg": 79.22,
+          "upper": 92.32,
+          "lower": 66.13
+        },
+        {
+          "doy": 327,
+          "hist_avg": 79.82,
+          "upper": 92.86,
+          "lower": 66.77
+        },
+        {
+          "doy": 328,
+          "hist_avg": 77.57,
+          "upper": 90.09,
+          "lower": 65.05
+        },
+        {
+          "doy": 329,
+          "hist_avg": 78.35,
+          "upper": 91.4,
+          "lower": 65.29
+        },
+        {
+          "doy": 330,
+          "hist_avg": 77.94,
+          "upper": 90.03,
+          "lower": 65.85
+        },
+        {
+          "doy": 331,
+          "hist_avg": 78.65,
+          "upper": 90.87,
+          "lower": 66.44
+        },
+        {
+          "doy": 332,
+          "hist_avg": 78.35,
+          "upper": 89.61,
+          "lower": 67.09
+        },
+        {
+          "doy": 333,
+          "hist_avg": 78.18,
+          "upper": 90.12,
+          "lower": 66.25
+        },
+        {
+          "doy": 334,
+          "hist_avg": 77.1,
+          "upper": 89.6,
+          "lower": 64.61
+        },
+        {
+          "doy": 335,
+          "hist_avg": 78.06,
+          "upper": 91.36,
+          "lower": 64.77
+        },
+        {
+          "doy": 336,
+          "hist_avg": 77.63,
+          "upper": 90.95,
+          "lower": 64.32
+        },
+        {
+          "doy": 337,
+          "hist_avg": 78.33,
+          "upper": 91.93,
+          "lower": 64.72
+        },
+        {
+          "doy": 338,
+          "hist_avg": 77.65,
+          "upper": 92.2,
+          "lower": 63.11
+        },
+        {
+          "doy": 339,
+          "hist_avg": 77.49,
+          "upper": 92.88,
+          "lower": 62.1
+        },
+        {
+          "doy": 340,
+          "hist_avg": 77.65,
+          "upper": 92.8,
+          "lower": 62.51
+        },
+        {
+          "doy": 341,
+          "hist_avg": 77.8,
+          "upper": 93.11,
+          "lower": 62.48
+        },
+        {
+          "doy": 342,
+          "hist_avg": 78.22,
+          "upper": 92.97,
+          "lower": 63.48
+        },
+        {
+          "doy": 343,
+          "hist_avg": 78.86,
+          "upper": 93.54,
+          "lower": 64.18
+        },
+        {
+          "doy": 344,
+          "hist_avg": 77.96,
+          "upper": 92.74,
+          "lower": 63.18
+        },
+        {
+          "doy": 345,
+          "hist_avg": 78.0,
+          "upper": 91.64,
+          "lower": 64.36
+        },
+        {
+          "doy": 346,
+          "hist_avg": 78.69,
+          "upper": 92.33,
+          "lower": 65.05
+        },
+        {
+          "doy": 347,
+          "hist_avg": 78.88,
+          "upper": 93.37,
+          "lower": 64.39
+        },
+        {
+          "doy": 348,
+          "hist_avg": 78.33,
+          "upper": 91.98,
+          "lower": 64.67
+        },
+        {
+          "doy": 349,
+          "hist_avg": 77.71,
+          "upper": 91.33,
+          "lower": 64.1
+        },
+        {
+          "doy": 350,
+          "hist_avg": 77.2,
+          "upper": 91.26,
+          "lower": 63.15
+        },
+        {
+          "doy": 351,
+          "hist_avg": 76.92,
+          "upper": 90.76,
+          "lower": 63.07
+        },
+        {
+          "doy": 352,
+          "hist_avg": 77.94,
+          "upper": 91.23,
+          "lower": 64.64
+        },
+        {
+          "doy": 353,
+          "hist_avg": 79.08,
+          "upper": 92.16,
+          "lower": 66.01
+        },
+        {
+          "doy": 354,
+          "hist_avg": 79.82,
+          "upper": 91.18,
+          "lower": 68.46
+        },
+        {
+          "doy": 355,
+          "hist_avg": 79.41,
+          "upper": 90.61,
+          "lower": 68.2
+        },
+        {
+          "doy": 356,
+          "hist_avg": 79.84,
+          "upper": 90.66,
+          "lower": 69.01
+        },
+        {
+          "doy": 357,
+          "hist_avg": 79.37,
+          "upper": 90.69,
+          "lower": 68.05
+        },
+        {
+          "doy": 358,
+          "hist_avg": 79.98,
+          "upper": 91.14,
+          "lower": 68.82
+        },
+        {
+          "doy": 359,
+          "hist_avg": 80.2,
+          "upper": 89.98,
+          "lower": 70.43
+        },
+        {
+          "doy": 360,
+          "hist_avg": 79.19,
+          "upper": 88.67,
+          "lower": 69.7
+        },
+        {
+          "doy": 361,
+          "hist_avg": 78.35,
+          "upper": 88.77,
+          "lower": 67.94
+        },
+        {
+          "doy": 362,
+          "hist_avg": 79.66,
+          "upper": 89.38,
+          "lower": 69.94
+        },
+        {
+          "doy": 363,
+          "hist_avg": 79.68,
+          "upper": 90.13,
+          "lower": 69.23
+        },
+        {
+          "doy": 364,
+          "hist_avg": 75.33,
+          "upper": 78.63,
+          "lower": 72.03
+        },
+        {
+          "doy": 365,
+          "hist_avg": null,
+          "upper": null,
+          "lower": null
+        },
+        {
+          "doy": 366,
+          "hist_avg": null,
+          "upper": null,
+          "lower": null
+        }
+      ],
+      "current": [
+        {
+          "doy": 72,
+          "roll7": 5.0
+        },
+        {
+          "doy": 71,
+          "roll7": 5.75
+        },
+        {
+          "doy": 70,
+          "roll7": 5.6
+        },
+        {
+          "doy": 69,
+          "roll7": 5.33
+        },
+        {
+          "doy": 68,
+          "roll7": 5.86
+        },
+        {
+          "doy": 67,
+          "roll7": 5.43
+        },
+        {
+          "doy": 66,
+          "roll7": 6.0
+        },
+        {
+          "doy": 65,
+          "roll7": 6.29
+        },
+        {
+          "doy": 64,
+          "roll7": 5.71
+        },
+        {
+          "doy": 63,
+          "roll7": 5.43
+        },
+        {
+          "doy": 62,
+          "roll7": 5.57
+        },
+        {
+          "doy": 61,
+          "roll7": 4.86
+        },
+        {
+          "doy": 60,
+          "roll7": 6.43
+        },
+        {
+          "doy": 59,
+          "roll7": 16.29
+        },
+        {
+          "doy": 58,
+          "roll7": 29.14
+        },
+        {
+          "doy": 57,
+          "roll7": 43.14
+        },
+        {
+          "doy": 56,
+          "roll7": 58.29
+        },
+        {
+          "doy": 55,
+          "roll7": 72.86
+        },
+        {
+          "doy": 54,
+          "roll7": 87.0
+        },
+        {
+          "doy": 53,
+          "roll7": 103.0
+        },
+        {
+          "doy": 52,
+          "roll7": 105.57
+        },
+        {
+          "doy": 51,
+          "roll7": 104.86
+        },
+        {
+          "doy": 50,
+          "roll7": 106.71
+        },
+        {
+          "doy": 49,
+          "roll7": 107.29
+        },
+        {
+          "doy": 48,
+          "roll7": 105.0
+        },
+        {
+          "doy": 47,
+          "roll7": 103.86
+        },
+        {
+          "doy": 46,
+          "roll7": 97.86
+        },
+        {
+          "doy": 45,
+          "roll7": 98.57
+        },
+        {
+          "doy": 44,
+          "roll7": 101.43
+        },
+        {
+          "doy": 43,
+          "roll7": 102.0
+        },
+        {
+          "doy": 42,
+          "roll7": 97.57
+        },
+        {
+          "doy": 41,
+          "roll7": 98.14
+        },
+        {
+          "doy": 40,
+          "roll7": 94.0
+        },
+        {
+          "doy": 39,
+          "roll7": 94.43
+        },
+        {
+          "doy": 38,
+          "roll7": 93.14
+        },
+        {
+          "doy": 37,
+          "roll7": 89.14
+        },
+        {
+          "doy": 36,
+          "roll7": 84.86
+        },
+        {
+          "doy": 35,
+          "roll7": 84.14
+        },
+        {
+          "doy": 34,
+          "roll7": 82.43
+        },
+        {
+          "doy": 33,
+          "roll7": 85.86
+        },
+        {
+          "doy": 32,
+          "roll7": 84.43
+        },
+        {
+          "doy": 31,
+          "roll7": 85.86
+        },
+        {
+          "doy": 30,
+          "roll7": 86.43
+        },
+        {
+          "doy": 29,
+          "roll7": 86.0
+        },
+        {
+          "doy": 28,
+          "roll7": 84.57
+        },
+        {
+          "doy": 27,
+          "roll7": 84.0
+        },
+        {
+          "doy": 26,
+          "roll7": 78.86
+        },
+        {
+          "doy": 25,
+          "roll7": 80.29
+        },
+        {
+          "doy": 24,
+          "roll7": 75.0
+        },
+        {
+          "doy": 23,
+          "roll7": 71.57
+        },
+        {
+          "doy": 22,
+          "roll7": 69.0
+        },
+        {
+          "doy": 21,
+          "roll7": 69.86
+        },
+        {
+          "doy": 20,
+          "roll7": 70.71
+        },
+        {
+          "doy": 19,
+          "roll7": 74.14
+        },
+        {
+          "doy": 18,
+          "roll7": 71.57
+        },
+        {
+          "doy": 17,
+          "roll7": 70.43
+        },
+        {
+          "doy": 16,
+          "roll7": 72.29
+        },
+        {
+          "doy": 15,
+          "roll7": 73.0
+        },
+        {
+          "doy": 14,
+          "roll7": 73.71
+        },
+        {
+          "doy": 13,
+          "roll7": 70.57
+        },
+        {
+          "doy": 12,
+          "roll7": 69.57
+        },
+        {
+          "doy": 11,
+          "roll7": 70.29
+        },
+        {
+          "doy": 10,
+          "roll7": 73.43
+        },
+        {
+          "doy": 9,
+          "roll7": 75.57
+        },
+        {
+          "doy": 8,
+          "roll7": 75.14
+        },
+        {
+          "doy": 7,
+          "roll7": 76.0
+        },
+        {
+          "doy": 6,
+          "roll7": 78.71
+        },
+        {
+          "doy": 5,
+          "roll7": 77.71
+        },
+        {
+          "doy": 4,
+          "roll7": 76.86
+        },
+        {
+          "doy": 3,
+          "roll7": 75.71
+        },
+        {
+          "doy": 2,
+          "roll7": 72.14
+        },
+        {
+          "doy": 1,
+          "roll7": 71.86
         }
       ]
     }
