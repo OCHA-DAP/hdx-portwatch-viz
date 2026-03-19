@@ -4,7 +4,8 @@
     "Mombasa, Kenya",
     "Salalah, Oman",
     "Djibouti, Djibouti",
-    "Port Sudan, Sudan"
+    "Port Sudan, Sudan",
+    "Mogadishu, Somalia"
   ],
   "port_data": {
     "Beirut, Lebanon": {
@@ -12429,6 +12430,2491 @@
         {
           "doy": 72,
           "roll7": 1.86
+        }
+      ]
+    },
+    "Mogadishu, Somalia": {
+      "current_year": 2026,
+      "hist_label": "2019\u20132025",
+      "latest_date": "13 Mar 2026",
+      "hist": [
+        {
+          "doy": 1,
+          "hist_avg": null,
+          "upper": null,
+          "lower": null
+        },
+        {
+          "doy": 2,
+          "hist_avg": null,
+          "upper": null,
+          "lower": null
+        },
+        {
+          "doy": 3,
+          "hist_avg": 0.86,
+          "upper": 1.43,
+          "lower": 0.28
+        },
+        {
+          "doy": 4,
+          "hist_avg": 0.79,
+          "upper": 1.29,
+          "lower": 0.28
+        },
+        {
+          "doy": 5,
+          "hist_avg": 0.71,
+          "upper": 1.14,
+          "lower": 0.28
+        },
+        {
+          "doy": 6,
+          "hist_avg": 0.74,
+          "upper": 1.1,
+          "lower": 0.38
+        },
+        {
+          "doy": 7,
+          "hist_avg": 0.71,
+          "upper": 0.98,
+          "lower": 0.45
+        },
+        {
+          "doy": 8,
+          "hist_avg": 0.65,
+          "upper": 0.94,
+          "lower": 0.37
+        },
+        {
+          "doy": 9,
+          "hist_avg": 0.71,
+          "upper": 1.0,
+          "lower": 0.43
+        },
+        {
+          "doy": 10,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 11,
+          "hist_avg": 0.59,
+          "upper": 0.74,
+          "lower": 0.44
+        },
+        {
+          "doy": 12,
+          "hist_avg": 0.61,
+          "upper": 0.81,
+          "lower": 0.42
+        },
+        {
+          "doy": 13,
+          "hist_avg": 0.59,
+          "upper": 0.85,
+          "lower": 0.34
+        },
+        {
+          "doy": 14,
+          "hist_avg": 0.59,
+          "upper": 0.87,
+          "lower": 0.31
+        },
+        {
+          "doy": 15,
+          "hist_avg": 0.61,
+          "upper": 0.92,
+          "lower": 0.31
+        },
+        {
+          "doy": 16,
+          "hist_avg": 0.61,
+          "upper": 0.88,
+          "lower": 0.34
+        },
+        {
+          "doy": 17,
+          "hist_avg": 0.61,
+          "upper": 0.81,
+          "lower": 0.42
+        },
+        {
+          "doy": 18,
+          "hist_avg": 0.65,
+          "upper": 0.92,
+          "lower": 0.38
+        },
+        {
+          "doy": 19,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 20,
+          "hist_avg": 0.61,
+          "upper": 0.79,
+          "lower": 0.43
+        },
+        {
+          "doy": 21,
+          "hist_avg": 0.65,
+          "upper": 0.85,
+          "lower": 0.45
+        },
+        {
+          "doy": 22,
+          "hist_avg": 0.63,
+          "upper": 0.9,
+          "lower": 0.36
+        },
+        {
+          "doy": 23,
+          "hist_avg": 0.51,
+          "upper": 0.74,
+          "lower": 0.28
+        },
+        {
+          "doy": 24,
+          "hist_avg": 0.53,
+          "upper": 0.74,
+          "lower": 0.32
+        },
+        {
+          "doy": 25,
+          "hist_avg": 0.49,
+          "upper": 0.71,
+          "lower": 0.27
+        },
+        {
+          "doy": 26,
+          "hist_avg": 0.59,
+          "upper": 0.82,
+          "lower": 0.37
+        },
+        {
+          "doy": 27,
+          "hist_avg": 0.53,
+          "upper": 0.84,
+          "lower": 0.23
+        },
+        {
+          "doy": 28,
+          "hist_avg": 0.51,
+          "upper": 0.65,
+          "lower": 0.37
+        },
+        {
+          "doy": 29,
+          "hist_avg": 0.55,
+          "upper": 0.7,
+          "lower": 0.4
+        },
+        {
+          "doy": 30,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 31,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 32,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 33,
+          "hist_avg": 0.53,
+          "upper": 0.79,
+          "lower": 0.27
+        },
+        {
+          "doy": 34,
+          "hist_avg": 0.61,
+          "upper": 0.93,
+          "lower": 0.3
+        },
+        {
+          "doy": 35,
+          "hist_avg": 0.59,
+          "upper": 0.95,
+          "lower": 0.24
+        },
+        {
+          "doy": 36,
+          "hist_avg": 0.53,
+          "upper": 0.8,
+          "lower": 0.26
+        },
+        {
+          "doy": 37,
+          "hist_avg": 0.49,
+          "upper": 0.84,
+          "lower": 0.14
+        },
+        {
+          "doy": 38,
+          "hist_avg": 0.47,
+          "upper": 0.75,
+          "lower": 0.19
+        },
+        {
+          "doy": 39,
+          "hist_avg": 0.51,
+          "upper": 0.78,
+          "lower": 0.24
+        },
+        {
+          "doy": 40,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 41,
+          "hist_avg": 0.57,
+          "upper": 0.77,
+          "lower": 0.37
+        },
+        {
+          "doy": 42,
+          "hist_avg": 0.57,
+          "upper": 0.69,
+          "lower": 0.45
+        },
+        {
+          "doy": 43,
+          "hist_avg": 0.57,
+          "upper": 0.69,
+          "lower": 0.45
+        },
+        {
+          "doy": 44,
+          "hist_avg": 0.65,
+          "upper": 0.79,
+          "lower": 0.51
+        },
+        {
+          "doy": 45,
+          "hist_avg": 0.61,
+          "upper": 0.72,
+          "lower": 0.5
+        },
+        {
+          "doy": 46,
+          "hist_avg": 0.63,
+          "upper": 0.71,
+          "lower": 0.56
+        },
+        {
+          "doy": 47,
+          "hist_avg": 0.63,
+          "upper": 0.86,
+          "lower": 0.4
+        },
+        {
+          "doy": 48,
+          "hist_avg": 0.67,
+          "upper": 0.9,
+          "lower": 0.44
+        },
+        {
+          "doy": 49,
+          "hist_avg": 0.67,
+          "upper": 0.9,
+          "lower": 0.44
+        },
+        {
+          "doy": 50,
+          "hist_avg": 0.67,
+          "upper": 0.96,
+          "lower": 0.39
+        },
+        {
+          "doy": 51,
+          "hist_avg": 0.65,
+          "upper": 0.95,
+          "lower": 0.36
+        },
+        {
+          "doy": 52,
+          "hist_avg": 0.67,
+          "upper": 0.96,
+          "lower": 0.39
+        },
+        {
+          "doy": 53,
+          "hist_avg": 0.59,
+          "upper": 0.93,
+          "lower": 0.26
+        },
+        {
+          "doy": 54,
+          "hist_avg": 0.47,
+          "upper": 0.68,
+          "lower": 0.26
+        },
+        {
+          "doy": 55,
+          "hist_avg": 0.39,
+          "upper": 0.58,
+          "lower": 0.19
+        },
+        {
+          "doy": 56,
+          "hist_avg": 0.49,
+          "upper": 0.71,
+          "lower": 0.27
+        },
+        {
+          "doy": 57,
+          "hist_avg": 0.53,
+          "upper": 0.73,
+          "lower": 0.33
+        },
+        {
+          "doy": 58,
+          "hist_avg": 0.51,
+          "upper": 0.65,
+          "lower": 0.37
+        },
+        {
+          "doy": 59,
+          "hist_avg": 0.59,
+          "upper": 0.72,
+          "lower": 0.46
+        },
+        {
+          "doy": 60,
+          "hist_avg": 0.65,
+          "upper": 0.79,
+          "lower": 0.51
+        },
+        {
+          "doy": 61,
+          "hist_avg": 0.73,
+          "upper": 1.03,
+          "lower": 0.44
+        },
+        {
+          "doy": 62,
+          "hist_avg": 0.78,
+          "upper": 1.1,
+          "lower": 0.45
+        },
+        {
+          "doy": 63,
+          "hist_avg": 0.63,
+          "upper": 0.92,
+          "lower": 0.35
+        },
+        {
+          "doy": 64,
+          "hist_avg": 0.69,
+          "upper": 0.97,
+          "lower": 0.42
+        },
+        {
+          "doy": 65,
+          "hist_avg": 0.63,
+          "upper": 0.88,
+          "lower": 0.39
+        },
+        {
+          "doy": 66,
+          "hist_avg": 0.61,
+          "upper": 0.87,
+          "lower": 0.36
+        },
+        {
+          "doy": 67,
+          "hist_avg": 0.53,
+          "upper": 0.74,
+          "lower": 0.32
+        },
+        {
+          "doy": 68,
+          "hist_avg": 0.57,
+          "upper": 0.69,
+          "lower": 0.45
+        },
+        {
+          "doy": 69,
+          "hist_avg": 0.57,
+          "upper": 0.74,
+          "lower": 0.41
+        },
+        {
+          "doy": 70,
+          "hist_avg": 0.61,
+          "upper": 0.83,
+          "lower": 0.4
+        },
+        {
+          "doy": 71,
+          "hist_avg": 0.53,
+          "upper": 0.73,
+          "lower": 0.33
+        },
+        {
+          "doy": 72,
+          "hist_avg": 0.59,
+          "upper": 0.77,
+          "lower": 0.42
+        },
+        {
+          "doy": 73,
+          "hist_avg": 0.51,
+          "upper": 0.76,
+          "lower": 0.26
+        },
+        {
+          "doy": 74,
+          "hist_avg": 0.51,
+          "upper": 0.73,
+          "lower": 0.29
+        },
+        {
+          "doy": 75,
+          "hist_avg": 0.47,
+          "upper": 0.61,
+          "lower": 0.33
+        },
+        {
+          "doy": 76,
+          "hist_avg": 0.47,
+          "upper": 0.61,
+          "lower": 0.33
+        },
+        {
+          "doy": 77,
+          "hist_avg": 0.53,
+          "upper": 0.73,
+          "lower": 0.33
+        },
+        {
+          "doy": 78,
+          "hist_avg": 0.57,
+          "upper": 0.84,
+          "lower": 0.3
+        },
+        {
+          "doy": 79,
+          "hist_avg": 0.55,
+          "upper": 0.74,
+          "lower": 0.36
+        },
+        {
+          "doy": 80,
+          "hist_avg": 0.59,
+          "upper": 0.78,
+          "lower": 0.4
+        },
+        {
+          "doy": 81,
+          "hist_avg": 0.67,
+          "upper": 0.87,
+          "lower": 0.48
+        },
+        {
+          "doy": 82,
+          "hist_avg": 0.67,
+          "upper": 0.9,
+          "lower": 0.44
+        },
+        {
+          "doy": 83,
+          "hist_avg": 0.67,
+          "upper": 0.9,
+          "lower": 0.44
+        },
+        {
+          "doy": 84,
+          "hist_avg": 0.63,
+          "upper": 0.81,
+          "lower": 0.45
+        },
+        {
+          "doy": 85,
+          "hist_avg": 0.63,
+          "upper": 0.75,
+          "lower": 0.52
+        },
+        {
+          "doy": 86,
+          "hist_avg": 0.63,
+          "upper": 0.83,
+          "lower": 0.43
+        },
+        {
+          "doy": 87,
+          "hist_avg": 0.67,
+          "upper": 0.96,
+          "lower": 0.39
+        },
+        {
+          "doy": 88,
+          "hist_avg": 0.67,
+          "upper": 0.96,
+          "lower": 0.39
+        },
+        {
+          "doy": 89,
+          "hist_avg": 0.61,
+          "upper": 0.89,
+          "lower": 0.33
+        },
+        {
+          "doy": 90,
+          "hist_avg": 0.69,
+          "upper": 0.96,
+          "lower": 0.43
+        },
+        {
+          "doy": 91,
+          "hist_avg": 0.69,
+          "upper": 0.95,
+          "lower": 0.44
+        },
+        {
+          "doy": 92,
+          "hist_avg": 0.67,
+          "upper": 0.85,
+          "lower": 0.49
+        },
+        {
+          "doy": 93,
+          "hist_avg": 0.67,
+          "upper": 0.85,
+          "lower": 0.49
+        },
+        {
+          "doy": 94,
+          "hist_avg": 0.61,
+          "upper": 0.83,
+          "lower": 0.4
+        },
+        {
+          "doy": 95,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 96,
+          "hist_avg": 0.63,
+          "upper": 0.77,
+          "lower": 0.49
+        },
+        {
+          "doy": 97,
+          "hist_avg": 0.57,
+          "upper": 0.71,
+          "lower": 0.43
+        },
+        {
+          "doy": 98,
+          "hist_avg": 0.53,
+          "upper": 0.71,
+          "lower": 0.35
+        },
+        {
+          "doy": 99,
+          "hist_avg": 0.53,
+          "upper": 0.69,
+          "lower": 0.37
+        },
+        {
+          "doy": 100,
+          "hist_avg": 0.53,
+          "upper": 0.69,
+          "lower": 0.37
+        },
+        {
+          "doy": 101,
+          "hist_avg": 0.59,
+          "upper": 0.77,
+          "lower": 0.42
+        },
+        {
+          "doy": 102,
+          "hist_avg": 0.55,
+          "upper": 0.7,
+          "lower": 0.4
+        },
+        {
+          "doy": 103,
+          "hist_avg": 0.59,
+          "upper": 0.83,
+          "lower": 0.35
+        },
+        {
+          "doy": 104,
+          "hist_avg": 0.59,
+          "upper": 0.69,
+          "lower": 0.49
+        },
+        {
+          "doy": 105,
+          "hist_avg": 0.59,
+          "upper": 0.78,
+          "lower": 0.4
+        },
+        {
+          "doy": 106,
+          "hist_avg": 0.55,
+          "upper": 0.74,
+          "lower": 0.36
+        },
+        {
+          "doy": 107,
+          "hist_avg": 0.63,
+          "upper": 0.86,
+          "lower": 0.4
+        },
+        {
+          "doy": 108,
+          "hist_avg": 0.57,
+          "upper": 0.8,
+          "lower": 0.34
+        },
+        {
+          "doy": 109,
+          "hist_avg": 0.57,
+          "upper": 0.79,
+          "lower": 0.35
+        },
+        {
+          "doy": 110,
+          "hist_avg": 0.49,
+          "upper": 0.67,
+          "lower": 0.31
+        },
+        {
+          "doy": 111,
+          "hist_avg": 0.53,
+          "upper": 0.76,
+          "lower": 0.3
+        },
+        {
+          "doy": 112,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 113,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 114,
+          "hist_avg": 0.63,
+          "upper": 0.79,
+          "lower": 0.47
+        },
+        {
+          "doy": 115,
+          "hist_avg": 0.63,
+          "upper": 0.88,
+          "lower": 0.39
+        },
+        {
+          "doy": 116,
+          "hist_avg": 0.65,
+          "upper": 0.96,
+          "lower": 0.35
+        },
+        {
+          "doy": 117,
+          "hist_avg": 0.73,
+          "upper": 0.96,
+          "lower": 0.51
+        },
+        {
+          "doy": 118,
+          "hist_avg": 0.67,
+          "upper": 1.01,
+          "lower": 0.34
+        },
+        {
+          "doy": 119,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 120,
+          "hist_avg": 0.63,
+          "upper": 0.86,
+          "lower": 0.4
+        },
+        {
+          "doy": 121,
+          "hist_avg": 0.57,
+          "upper": 0.74,
+          "lower": 0.41
+        },
+        {
+          "doy": 122,
+          "hist_avg": 0.57,
+          "upper": 0.69,
+          "lower": 0.45
+        },
+        {
+          "doy": 123,
+          "hist_avg": 0.61,
+          "upper": 0.91,
+          "lower": 0.32
+        },
+        {
+          "doy": 124,
+          "hist_avg": 0.55,
+          "upper": 0.74,
+          "lower": 0.36
+        },
+        {
+          "doy": 125,
+          "hist_avg": 0.59,
+          "upper": 0.85,
+          "lower": 0.34
+        },
+        {
+          "doy": 126,
+          "hist_avg": 0.51,
+          "upper": 0.69,
+          "lower": 0.33
+        },
+        {
+          "doy": 127,
+          "hist_avg": 0.53,
+          "upper": 0.77,
+          "lower": 0.29
+        },
+        {
+          "doy": 128,
+          "hist_avg": 0.59,
+          "upper": 0.88,
+          "lower": 0.3
+        },
+        {
+          "doy": 129,
+          "hist_avg": 0.63,
+          "upper": 0.95,
+          "lower": 0.31
+        },
+        {
+          "doy": 130,
+          "hist_avg": 0.57,
+          "upper": 0.9,
+          "lower": 0.24
+        },
+        {
+          "doy": 131,
+          "hist_avg": 0.63,
+          "upper": 0.86,
+          "lower": 0.4
+        },
+        {
+          "doy": 132,
+          "hist_avg": 0.57,
+          "upper": 0.87,
+          "lower": 0.27
+        },
+        {
+          "doy": 133,
+          "hist_avg": 0.55,
+          "upper": 0.83,
+          "lower": 0.27
+        },
+        {
+          "doy": 134,
+          "hist_avg": 0.57,
+          "upper": 0.83,
+          "lower": 0.31
+        },
+        {
+          "doy": 135,
+          "hist_avg": 0.45,
+          "upper": 0.7,
+          "lower": 0.2
+        },
+        {
+          "doy": 136,
+          "hist_avg": 0.41,
+          "upper": 0.63,
+          "lower": 0.18
+        },
+        {
+          "doy": 137,
+          "hist_avg": 0.39,
+          "upper": 0.62,
+          "lower": 0.16
+        },
+        {
+          "doy": 138,
+          "hist_avg": 0.29,
+          "upper": 0.47,
+          "lower": 0.1
+        },
+        {
+          "doy": 139,
+          "hist_avg": 0.37,
+          "upper": 0.57,
+          "lower": 0.17
+        },
+        {
+          "doy": 140,
+          "hist_avg": 0.41,
+          "upper": 0.63,
+          "lower": 0.18
+        },
+        {
+          "doy": 141,
+          "hist_avg": 0.41,
+          "upper": 0.63,
+          "lower": 0.18
+        },
+        {
+          "doy": 142,
+          "hist_avg": 0.49,
+          "upper": 0.77,
+          "lower": 0.21
+        },
+        {
+          "doy": 143,
+          "hist_avg": 0.55,
+          "upper": 0.8,
+          "lower": 0.3
+        },
+        {
+          "doy": 144,
+          "hist_avg": 0.59,
+          "upper": 0.69,
+          "lower": 0.49
+        },
+        {
+          "doy": 145,
+          "hist_avg": 0.71,
+          "upper": 0.92,
+          "lower": 0.51
+        },
+        {
+          "doy": 146,
+          "hist_avg": 0.73,
+          "upper": 0.91,
+          "lower": 0.56
+        },
+        {
+          "doy": 147,
+          "hist_avg": 0.73,
+          "upper": 0.91,
+          "lower": 0.56
+        },
+        {
+          "doy": 148,
+          "hist_avg": 0.65,
+          "upper": 0.9,
+          "lower": 0.41
+        },
+        {
+          "doy": 149,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 150,
+          "hist_avg": 0.61,
+          "upper": 0.88,
+          "lower": 0.34
+        },
+        {
+          "doy": 151,
+          "hist_avg": 0.57,
+          "upper": 0.65,
+          "lower": 0.49
+        },
+        {
+          "doy": 152,
+          "hist_avg": 0.49,
+          "upper": 0.6,
+          "lower": 0.38
+        },
+        {
+          "doy": 153,
+          "hist_avg": 0.41,
+          "upper": 0.51,
+          "lower": 0.31
+        },
+        {
+          "doy": 154,
+          "hist_avg": 0.51,
+          "upper": 0.65,
+          "lower": 0.37
+        },
+        {
+          "doy": 155,
+          "hist_avg": 0.57,
+          "upper": 0.71,
+          "lower": 0.43
+        },
+        {
+          "doy": 156,
+          "hist_avg": 0.59,
+          "upper": 0.8,
+          "lower": 0.38
+        },
+        {
+          "doy": 157,
+          "hist_avg": 0.55,
+          "upper": 0.76,
+          "lower": 0.34
+        },
+        {
+          "doy": 158,
+          "hist_avg": 0.63,
+          "upper": 0.83,
+          "lower": 0.43
+        },
+        {
+          "doy": 159,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 160,
+          "hist_avg": 0.65,
+          "upper": 0.82,
+          "lower": 0.49
+        },
+        {
+          "doy": 161,
+          "hist_avg": 0.61,
+          "upper": 0.72,
+          "lower": 0.5
+        },
+        {
+          "doy": 162,
+          "hist_avg": 0.61,
+          "upper": 0.81,
+          "lower": 0.42
+        },
+        {
+          "doy": 163,
+          "hist_avg": 0.61,
+          "upper": 0.84,
+          "lower": 0.38
+        },
+        {
+          "doy": 164,
+          "hist_avg": 0.65,
+          "upper": 0.9,
+          "lower": 0.41
+        },
+        {
+          "doy": 165,
+          "hist_avg": 0.57,
+          "upper": 0.86,
+          "lower": 0.29
+        },
+        {
+          "doy": 166,
+          "hist_avg": 0.57,
+          "upper": 0.86,
+          "lower": 0.29
+        },
+        {
+          "doy": 167,
+          "hist_avg": 0.61,
+          "upper": 0.93,
+          "lower": 0.3
+        },
+        {
+          "doy": 168,
+          "hist_avg": 0.61,
+          "upper": 0.83,
+          "lower": 0.4
+        },
+        {
+          "doy": 169,
+          "hist_avg": 0.63,
+          "upper": 0.77,
+          "lower": 0.49
+        },
+        {
+          "doy": 170,
+          "hist_avg": 0.57,
+          "upper": 0.77,
+          "lower": 0.37
+        },
+        {
+          "doy": 171,
+          "hist_avg": 0.59,
+          "upper": 0.8,
+          "lower": 0.38
+        },
+        {
+          "doy": 172,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 173,
+          "hist_avg": 0.67,
+          "upper": 0.87,
+          "lower": 0.48
+        },
+        {
+          "doy": 174,
+          "hist_avg": 0.63,
+          "upper": 0.83,
+          "lower": 0.43
+        },
+        {
+          "doy": 175,
+          "hist_avg": 0.55,
+          "upper": 0.76,
+          "lower": 0.34
+        },
+        {
+          "doy": 176,
+          "hist_avg": 0.51,
+          "upper": 0.62,
+          "lower": 0.4
+        },
+        {
+          "doy": 177,
+          "hist_avg": 0.55,
+          "upper": 0.8,
+          "lower": 0.3
+        },
+        {
+          "doy": 178,
+          "hist_avg": 0.53,
+          "upper": 0.69,
+          "lower": 0.37
+        },
+        {
+          "doy": 179,
+          "hist_avg": 0.53,
+          "upper": 0.71,
+          "lower": 0.35
+        },
+        {
+          "doy": 180,
+          "hist_avg": 0.55,
+          "upper": 0.72,
+          "lower": 0.38
+        },
+        {
+          "doy": 181,
+          "hist_avg": 0.61,
+          "upper": 0.83,
+          "lower": 0.4
+        },
+        {
+          "doy": 182,
+          "hist_avg": 0.63,
+          "upper": 0.9,
+          "lower": 0.36
+        },
+        {
+          "doy": 183,
+          "hist_avg": 0.61,
+          "upper": 0.83,
+          "lower": 0.4
+        },
+        {
+          "doy": 184,
+          "hist_avg": 0.61,
+          "upper": 0.86,
+          "lower": 0.37
+        },
+        {
+          "doy": 185,
+          "hist_avg": 0.59,
+          "upper": 0.83,
+          "lower": 0.35
+        },
+        {
+          "doy": 186,
+          "hist_avg": 0.71,
+          "upper": 1.02,
+          "lower": 0.41
+        },
+        {
+          "doy": 187,
+          "hist_avg": 0.61,
+          "upper": 0.87,
+          "lower": 0.36
+        },
+        {
+          "doy": 188,
+          "hist_avg": 0.61,
+          "upper": 0.89,
+          "lower": 0.33
+        },
+        {
+          "doy": 189,
+          "hist_avg": 0.63,
+          "upper": 0.89,
+          "lower": 0.37
+        },
+        {
+          "doy": 190,
+          "hist_avg": 0.65,
+          "upper": 0.91,
+          "lower": 0.39
+        },
+        {
+          "doy": 191,
+          "hist_avg": 0.69,
+          "upper": 1.04,
+          "lower": 0.35
+        },
+        {
+          "doy": 192,
+          "hist_avg": 0.78,
+          "upper": 1.13,
+          "lower": 0.42
+        },
+        {
+          "doy": 193,
+          "hist_avg": 0.65,
+          "upper": 0.92,
+          "lower": 0.38
+        },
+        {
+          "doy": 194,
+          "hist_avg": 0.65,
+          "upper": 0.85,
+          "lower": 0.45
+        },
+        {
+          "doy": 195,
+          "hist_avg": 0.59,
+          "upper": 0.82,
+          "lower": 0.37
+        },
+        {
+          "doy": 196,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 197,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 198,
+          "hist_avg": 0.55,
+          "upper": 0.78,
+          "lower": 0.33
+        },
+        {
+          "doy": 199,
+          "hist_avg": 0.51,
+          "upper": 0.65,
+          "lower": 0.37
+        },
+        {
+          "doy": 200,
+          "hist_avg": 0.47,
+          "upper": 0.58,
+          "lower": 0.36
+        },
+        {
+          "doy": 201,
+          "hist_avg": 0.47,
+          "upper": 0.58,
+          "lower": 0.36
+        },
+        {
+          "doy": 202,
+          "hist_avg": 0.47,
+          "upper": 0.63,
+          "lower": 0.31
+        },
+        {
+          "doy": 203,
+          "hist_avg": 0.41,
+          "upper": 0.58,
+          "lower": 0.23
+        },
+        {
+          "doy": 204,
+          "hist_avg": 0.49,
+          "upper": 0.71,
+          "lower": 0.27
+        },
+        {
+          "doy": 205,
+          "hist_avg": 0.45,
+          "upper": 0.73,
+          "lower": 0.17
+        },
+        {
+          "doy": 206,
+          "hist_avg": 0.47,
+          "upper": 0.67,
+          "lower": 0.27
+        },
+        {
+          "doy": 207,
+          "hist_avg": 0.53,
+          "upper": 0.67,
+          "lower": 0.39
+        },
+        {
+          "doy": 208,
+          "hist_avg": 0.59,
+          "upper": 0.77,
+          "lower": 0.42
+        },
+        {
+          "doy": 209,
+          "hist_avg": 0.59,
+          "upper": 0.78,
+          "lower": 0.4
+        },
+        {
+          "doy": 210,
+          "hist_avg": 0.61,
+          "upper": 0.84,
+          "lower": 0.38
+        },
+        {
+          "doy": 211,
+          "hist_avg": 0.57,
+          "upper": 0.74,
+          "lower": 0.41
+        },
+        {
+          "doy": 212,
+          "hist_avg": 0.65,
+          "upper": 0.87,
+          "lower": 0.44
+        },
+        {
+          "doy": 213,
+          "hist_avg": 0.71,
+          "upper": 0.99,
+          "lower": 0.44
+        },
+        {
+          "doy": 214,
+          "hist_avg": 0.67,
+          "upper": 0.93,
+          "lower": 0.42
+        },
+        {
+          "doy": 215,
+          "hist_avg": 0.65,
+          "upper": 0.97,
+          "lower": 0.34
+        },
+        {
+          "doy": 216,
+          "hist_avg": 0.65,
+          "upper": 0.91,
+          "lower": 0.39
+        },
+        {
+          "doy": 217,
+          "hist_avg": 0.67,
+          "upper": 0.93,
+          "lower": 0.42
+        },
+        {
+          "doy": 218,
+          "hist_avg": 0.65,
+          "upper": 0.85,
+          "lower": 0.45
+        },
+        {
+          "doy": 219,
+          "hist_avg": 0.57,
+          "upper": 0.69,
+          "lower": 0.45
+        },
+        {
+          "doy": 220,
+          "hist_avg": 0.47,
+          "upper": 0.63,
+          "lower": 0.31
+        },
+        {
+          "doy": 221,
+          "hist_avg": 0.47,
+          "upper": 0.68,
+          "lower": 0.26
+        },
+        {
+          "doy": 222,
+          "hist_avg": 0.49,
+          "upper": 0.72,
+          "lower": 0.26
+        },
+        {
+          "doy": 223,
+          "hist_avg": 0.59,
+          "upper": 0.8,
+          "lower": 0.38
+        },
+        {
+          "doy": 224,
+          "hist_avg": 0.57,
+          "upper": 0.74,
+          "lower": 0.41
+        },
+        {
+          "doy": 225,
+          "hist_avg": 0.63,
+          "upper": 0.77,
+          "lower": 0.49
+        },
+        {
+          "doy": 226,
+          "hist_avg": 0.71,
+          "upper": 0.88,
+          "lower": 0.55
+        },
+        {
+          "doy": 227,
+          "hist_avg": 0.73,
+          "upper": 0.97,
+          "lower": 0.5
+        },
+        {
+          "doy": 228,
+          "hist_avg": 0.76,
+          "upper": 1.06,
+          "lower": 0.45
+        },
+        {
+          "doy": 229,
+          "hist_avg": 0.71,
+          "upper": 1.1,
+          "lower": 0.33
+        },
+        {
+          "doy": 230,
+          "hist_avg": 0.69,
+          "upper": 1.06,
+          "lower": 0.33
+        },
+        {
+          "doy": 231,
+          "hist_avg": 0.65,
+          "upper": 0.97,
+          "lower": 0.34
+        },
+        {
+          "doy": 232,
+          "hist_avg": 0.57,
+          "upper": 0.94,
+          "lower": 0.2
+        },
+        {
+          "doy": 233,
+          "hist_avg": 0.55,
+          "upper": 0.86,
+          "lower": 0.24
+        },
+        {
+          "doy": 234,
+          "hist_avg": 0.57,
+          "upper": 0.96,
+          "lower": 0.18
+        },
+        {
+          "doy": 235,
+          "hist_avg": 0.55,
+          "upper": 0.83,
+          "lower": 0.27
+        },
+        {
+          "doy": 236,
+          "hist_avg": 0.53,
+          "upper": 0.74,
+          "lower": 0.32
+        },
+        {
+          "doy": 237,
+          "hist_avg": 0.57,
+          "upper": 0.74,
+          "lower": 0.41
+        },
+        {
+          "doy": 238,
+          "hist_avg": 0.55,
+          "upper": 0.68,
+          "lower": 0.42
+        },
+        {
+          "doy": 239,
+          "hist_avg": 0.63,
+          "upper": 0.77,
+          "lower": 0.49
+        },
+        {
+          "doy": 240,
+          "hist_avg": 0.63,
+          "upper": 0.75,
+          "lower": 0.52
+        },
+        {
+          "doy": 241,
+          "hist_avg": 0.67,
+          "upper": 0.81,
+          "lower": 0.54
+        },
+        {
+          "doy": 242,
+          "hist_avg": 0.63,
+          "upper": 0.77,
+          "lower": 0.49
+        },
+        {
+          "doy": 243,
+          "hist_avg": 0.69,
+          "upper": 0.89,
+          "lower": 0.5
+        },
+        {
+          "doy": 244,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 245,
+          "hist_avg": 0.71,
+          "upper": 0.96,
+          "lower": 0.47
+        },
+        {
+          "doy": 246,
+          "hist_avg": 0.69,
+          "upper": 0.92,
+          "lower": 0.47
+        },
+        {
+          "doy": 247,
+          "hist_avg": 0.63,
+          "upper": 0.79,
+          "lower": 0.47
+        },
+        {
+          "doy": 248,
+          "hist_avg": 0.53,
+          "upper": 0.74,
+          "lower": 0.32
+        },
+        {
+          "doy": 249,
+          "hist_avg": 0.53,
+          "upper": 0.76,
+          "lower": 0.3
+        },
+        {
+          "doy": 250,
+          "hist_avg": 0.55,
+          "upper": 0.72,
+          "lower": 0.38
+        },
+        {
+          "doy": 251,
+          "hist_avg": 0.57,
+          "upper": 0.65,
+          "lower": 0.49
+        },
+        {
+          "doy": 252,
+          "hist_avg": 0.55,
+          "upper": 0.79,
+          "lower": 0.31
+        },
+        {
+          "doy": 253,
+          "hist_avg": 0.57,
+          "upper": 0.82,
+          "lower": 0.32
+        },
+        {
+          "doy": 254,
+          "hist_avg": 0.61,
+          "upper": 0.87,
+          "lower": 0.36
+        },
+        {
+          "doy": 255,
+          "hist_avg": 0.63,
+          "upper": 0.9,
+          "lower": 0.36
+        },
+        {
+          "doy": 256,
+          "hist_avg": 0.73,
+          "upper": 0.91,
+          "lower": 0.56
+        },
+        {
+          "doy": 257,
+          "hist_avg": 0.69,
+          "upper": 0.9,
+          "lower": 0.48
+        },
+        {
+          "doy": 258,
+          "hist_avg": 0.65,
+          "upper": 0.91,
+          "lower": 0.39
+        },
+        {
+          "doy": 259,
+          "hist_avg": 0.61,
+          "upper": 0.86,
+          "lower": 0.37
+        },
+        {
+          "doy": 260,
+          "hist_avg": 0.55,
+          "upper": 0.72,
+          "lower": 0.38
+        },
+        {
+          "doy": 261,
+          "hist_avg": 0.59,
+          "upper": 0.72,
+          "lower": 0.46
+        },
+        {
+          "doy": 262,
+          "hist_avg": 0.57,
+          "upper": 0.76,
+          "lower": 0.39
+        },
+        {
+          "doy": 263,
+          "hist_avg": 0.49,
+          "upper": 0.63,
+          "lower": 0.35
+        },
+        {
+          "doy": 264,
+          "hist_avg": 0.55,
+          "upper": 0.82,
+          "lower": 0.28
+        },
+        {
+          "doy": 265,
+          "hist_avg": 0.57,
+          "upper": 0.82,
+          "lower": 0.32
+        },
+        {
+          "doy": 266,
+          "hist_avg": 0.61,
+          "upper": 0.92,
+          "lower": 0.31
+        },
+        {
+          "doy": 267,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 268,
+          "hist_avg": 0.61,
+          "upper": 0.84,
+          "lower": 0.38
+        },
+        {
+          "doy": 269,
+          "hist_avg": 0.63,
+          "upper": 0.83,
+          "lower": 0.43
+        },
+        {
+          "doy": 270,
+          "hist_avg": 0.67,
+          "upper": 0.81,
+          "lower": 0.54
+        },
+        {
+          "doy": 271,
+          "hist_avg": 0.67,
+          "upper": 0.83,
+          "lower": 0.51
+        },
+        {
+          "doy": 272,
+          "hist_avg": 0.67,
+          "upper": 0.83,
+          "lower": 0.51
+        },
+        {
+          "doy": 273,
+          "hist_avg": 0.65,
+          "upper": 0.87,
+          "lower": 0.44
+        },
+        {
+          "doy": 274,
+          "hist_avg": 0.69,
+          "upper": 0.82,
+          "lower": 0.57
+        },
+        {
+          "doy": 275,
+          "hist_avg": 0.61,
+          "upper": 0.83,
+          "lower": 0.4
+        },
+        {
+          "doy": 276,
+          "hist_avg": 0.65,
+          "upper": 0.85,
+          "lower": 0.45
+        },
+        {
+          "doy": 277,
+          "hist_avg": 0.71,
+          "upper": 0.93,
+          "lower": 0.5
+        },
+        {
+          "doy": 278,
+          "hist_avg": 0.67,
+          "upper": 0.98,
+          "lower": 0.37
+        },
+        {
+          "doy": 279,
+          "hist_avg": 0.69,
+          "upper": 1.01,
+          "lower": 0.38
+        },
+        {
+          "doy": 280,
+          "hist_avg": 0.69,
+          "upper": 1.06,
+          "lower": 0.33
+        },
+        {
+          "doy": 281,
+          "hist_avg": 0.67,
+          "upper": 0.98,
+          "lower": 0.37
+        },
+        {
+          "doy": 282,
+          "hist_avg": 0.82,
+          "upper": 1.12,
+          "lower": 0.51
+        },
+        {
+          "doy": 283,
+          "hist_avg": 0.71,
+          "upper": 1.08,
+          "lower": 0.35
+        },
+        {
+          "doy": 284,
+          "hist_avg": 0.71,
+          "upper": 0.95,
+          "lower": 0.48
+        },
+        {
+          "doy": 285,
+          "hist_avg": 0.65,
+          "upper": 0.87,
+          "lower": 0.44
+        },
+        {
+          "doy": 286,
+          "hist_avg": 0.63,
+          "upper": 0.77,
+          "lower": 0.49
+        },
+        {
+          "doy": 287,
+          "hist_avg": 0.65,
+          "upper": 0.82,
+          "lower": 0.49
+        },
+        {
+          "doy": 288,
+          "hist_avg": 0.65,
+          "upper": 0.94,
+          "lower": 0.37
+        },
+        {
+          "doy": 289,
+          "hist_avg": 0.51,
+          "upper": 0.74,
+          "lower": 0.28
+        },
+        {
+          "doy": 290,
+          "hist_avg": 0.61,
+          "upper": 0.97,
+          "lower": 0.26
+        },
+        {
+          "doy": 291,
+          "hist_avg": 0.55,
+          "upper": 0.97,
+          "lower": 0.14
+        },
+        {
+          "doy": 292,
+          "hist_avg": 0.55,
+          "upper": 0.91,
+          "lower": 0.2
+        },
+        {
+          "doy": 293,
+          "hist_avg": 0.59,
+          "upper": 0.85,
+          "lower": 0.34
+        },
+        {
+          "doy": 294,
+          "hist_avg": 0.57,
+          "upper": 0.79,
+          "lower": 0.35
+        },
+        {
+          "doy": 295,
+          "hist_avg": 0.55,
+          "upper": 0.78,
+          "lower": 0.33
+        },
+        {
+          "doy": 296,
+          "hist_avg": 0.65,
+          "upper": 0.83,
+          "lower": 0.47
+        },
+        {
+          "doy": 297,
+          "hist_avg": 0.63,
+          "upper": 0.79,
+          "lower": 0.47
+        },
+        {
+          "doy": 298,
+          "hist_avg": 0.59,
+          "upper": 0.8,
+          "lower": 0.38
+        },
+        {
+          "doy": 299,
+          "hist_avg": 0.61,
+          "upper": 0.84,
+          "lower": 0.38
+        },
+        {
+          "doy": 300,
+          "hist_avg": 0.55,
+          "upper": 0.68,
+          "lower": 0.42
+        },
+        {
+          "doy": 301,
+          "hist_avg": 0.69,
+          "upper": 0.98,
+          "lower": 0.4
+        },
+        {
+          "doy": 302,
+          "hist_avg": 0.69,
+          "upper": 0.98,
+          "lower": 0.4
+        },
+        {
+          "doy": 303,
+          "hist_avg": 0.71,
+          "upper": 0.95,
+          "lower": 0.48
+        },
+        {
+          "doy": 304,
+          "hist_avg": 0.67,
+          "upper": 0.93,
+          "lower": 0.42
+        },
+        {
+          "doy": 305,
+          "hist_avg": 0.69,
+          "upper": 0.96,
+          "lower": 0.43
+        },
+        {
+          "doy": 306,
+          "hist_avg": 0.71,
+          "upper": 1.02,
+          "lower": 0.41
+        },
+        {
+          "doy": 307,
+          "hist_avg": 0.82,
+          "upper": 1.18,
+          "lower": 0.45
+        },
+        {
+          "doy": 308,
+          "hist_avg": 0.73,
+          "upper": 1.01,
+          "lower": 0.46
+        },
+        {
+          "doy": 309,
+          "hist_avg": 0.73,
+          "upper": 0.99,
+          "lower": 0.48
+        },
+        {
+          "doy": 310,
+          "hist_avg": 0.76,
+          "upper": 1.04,
+          "lower": 0.47
+        },
+        {
+          "doy": 311,
+          "hist_avg": 0.78,
+          "upper": 0.98,
+          "lower": 0.58
+        },
+        {
+          "doy": 312,
+          "hist_avg": 0.84,
+          "upper": 0.99,
+          "lower": 0.68
+        },
+        {
+          "doy": 313,
+          "hist_avg": 0.82,
+          "upper": 0.95,
+          "lower": 0.68
+        },
+        {
+          "doy": 314,
+          "hist_avg": 0.84,
+          "upper": 1.05,
+          "lower": 0.63
+        },
+        {
+          "doy": 315,
+          "hist_avg": 0.78,
+          "upper": 0.96,
+          "lower": 0.59
+        },
+        {
+          "doy": 316,
+          "hist_avg": 0.78,
+          "upper": 0.96,
+          "lower": 0.59
+        },
+        {
+          "doy": 317,
+          "hist_avg": 0.78,
+          "upper": 1.08,
+          "lower": 0.47
+        },
+        {
+          "doy": 318,
+          "hist_avg": 0.86,
+          "upper": 1.15,
+          "lower": 0.56
+        },
+        {
+          "doy": 319,
+          "hist_avg": 0.8,
+          "upper": 1.1,
+          "lower": 0.49
+        },
+        {
+          "doy": 320,
+          "hist_avg": 0.84,
+          "upper": 1.06,
+          "lower": 0.61
+        },
+        {
+          "doy": 321,
+          "hist_avg": 0.71,
+          "upper": 0.95,
+          "lower": 0.48
+        },
+        {
+          "doy": 322,
+          "hist_avg": 0.73,
+          "upper": 0.96,
+          "lower": 0.51
+        },
+        {
+          "doy": 323,
+          "hist_avg": 0.78,
+          "upper": 0.96,
+          "lower": 0.59
+        },
+        {
+          "doy": 324,
+          "hist_avg": 0.69,
+          "upper": 0.89,
+          "lower": 0.5
+        },
+        {
+          "doy": 325,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 326,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 327,
+          "hist_avg": 0.59,
+          "upper": 0.87,
+          "lower": 0.31
+        },
+        {
+          "doy": 328,
+          "hist_avg": 0.63,
+          "upper": 0.9,
+          "lower": 0.36
+        },
+        {
+          "doy": 329,
+          "hist_avg": 0.65,
+          "upper": 0.94,
+          "lower": 0.37
+        },
+        {
+          "doy": 330,
+          "hist_avg": 0.63,
+          "upper": 0.97,
+          "lower": 0.29
+        },
+        {
+          "doy": 331,
+          "hist_avg": 0.61,
+          "upper": 1.0,
+          "lower": 0.23
+        },
+        {
+          "doy": 332,
+          "hist_avg": 0.61,
+          "upper": 0.92,
+          "lower": 0.31
+        },
+        {
+          "doy": 333,
+          "hist_avg": 0.61,
+          "upper": 0.89,
+          "lower": 0.33
+        },
+        {
+          "doy": 334,
+          "hist_avg": 0.65,
+          "upper": 0.98,
+          "lower": 0.32
+        },
+        {
+          "doy": 335,
+          "hist_avg": 0.65,
+          "upper": 0.9,
+          "lower": 0.41
+        },
+        {
+          "doy": 336,
+          "hist_avg": 0.63,
+          "upper": 0.83,
+          "lower": 0.43
+        },
+        {
+          "doy": 337,
+          "hist_avg": 0.65,
+          "upper": 0.85,
+          "lower": 0.45
+        },
+        {
+          "doy": 338,
+          "hist_avg": 0.63,
+          "upper": 0.85,
+          "lower": 0.42
+        },
+        {
+          "doy": 339,
+          "hist_avg": 0.59,
+          "upper": 0.8,
+          "lower": 0.38
+        },
+        {
+          "doy": 340,
+          "hist_avg": 0.55,
+          "upper": 0.7,
+          "lower": 0.4
+        },
+        {
+          "doy": 341,
+          "hist_avg": 0.57,
+          "upper": 0.82,
+          "lower": 0.32
+        },
+        {
+          "doy": 342,
+          "hist_avg": 0.51,
+          "upper": 0.73,
+          "lower": 0.29
+        },
+        {
+          "doy": 343,
+          "hist_avg": 0.47,
+          "upper": 0.71,
+          "lower": 0.23
+        },
+        {
+          "doy": 344,
+          "hist_avg": 0.47,
+          "upper": 0.61,
+          "lower": 0.33
+        },
+        {
+          "doy": 345,
+          "hist_avg": 0.45,
+          "upper": 0.64,
+          "lower": 0.26
+        },
+        {
+          "doy": 346,
+          "hist_avg": 0.51,
+          "upper": 0.69,
+          "lower": 0.33
+        },
+        {
+          "doy": 347,
+          "hist_avg": 0.57,
+          "upper": 0.86,
+          "lower": 0.29
+        },
+        {
+          "doy": 348,
+          "hist_avg": 0.57,
+          "upper": 0.86,
+          "lower": 0.29
+        },
+        {
+          "doy": 349,
+          "hist_avg": 0.59,
+          "upper": 0.96,
+          "lower": 0.23
+        },
+        {
+          "doy": 350,
+          "hist_avg": 0.67,
+          "upper": 0.99,
+          "lower": 0.36
+        },
+        {
+          "doy": 351,
+          "hist_avg": 0.71,
+          "upper": 1.0,
+          "lower": 0.43
+        },
+        {
+          "doy": 352,
+          "hist_avg": 0.76,
+          "upper": 0.97,
+          "lower": 0.54
+        },
+        {
+          "doy": 353,
+          "hist_avg": 0.63,
+          "upper": 0.81,
+          "lower": 0.45
+        },
+        {
+          "doy": 354,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 355,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 356,
+          "hist_avg": 0.59,
+          "upper": 0.77,
+          "lower": 0.42
+        },
+        {
+          "doy": 357,
+          "hist_avg": 0.53,
+          "upper": 0.69,
+          "lower": 0.37
+        },
+        {
+          "doy": 358,
+          "hist_avg": 0.51,
+          "upper": 0.67,
+          "lower": 0.35
+        },
+        {
+          "doy": 359,
+          "hist_avg": 0.49,
+          "upper": 0.67,
+          "lower": 0.31
+        },
+        {
+          "doy": 360,
+          "hist_avg": 0.57,
+          "upper": 0.8,
+          "lower": 0.34
+        },
+        {
+          "doy": 361,
+          "hist_avg": 0.55,
+          "upper": 0.74,
+          "lower": 0.36
+        },
+        {
+          "doy": 362,
+          "hist_avg": 0.53,
+          "upper": 0.76,
+          "lower": 0.3
+        },
+        {
+          "doy": 363,
+          "hist_avg": 0.59,
+          "upper": 0.8,
+          "lower": 0.38
+        },
+        {
+          "doy": 364,
+          "hist_avg": 0.67,
+          "upper": 0.87,
+          "lower": 0.48
+        },
+        {
+          "doy": 365,
+          "hist_avg": 0.61,
+          "upper": 0.77,
+          "lower": 0.45
+        },
+        {
+          "doy": 366,
+          "hist_avg": 0.64,
+          "upper": 0.74,
+          "lower": 0.54
+        }
+      ],
+      "current": [
+        {
+          "doy": 3,
+          "roll7": 0.67
+        },
+        {
+          "doy": 4,
+          "roll7": 0.5
+        },
+        {
+          "doy": 5,
+          "roll7": 0.4
+        },
+        {
+          "doy": 6,
+          "roll7": 0.83
+        },
+        {
+          "doy": 7,
+          "roll7": 0.86
+        },
+        {
+          "doy": 8,
+          "roll7": 0.86
+        },
+        {
+          "doy": 9,
+          "roll7": 0.71
+        },
+        {
+          "doy": 10,
+          "roll7": 0.71
+        },
+        {
+          "doy": 11,
+          "roll7": 1.0
+        },
+        {
+          "doy": 12,
+          "roll7": 1.14
+        },
+        {
+          "doy": 13,
+          "roll7": 0.71
+        },
+        {
+          "doy": 14,
+          "roll7": 0.71
+        },
+        {
+          "doy": 15,
+          "roll7": 0.71
+        },
+        {
+          "doy": 16,
+          "roll7": 0.86
+        },
+        {
+          "doy": 17,
+          "roll7": 1.14
+        },
+        {
+          "doy": 18,
+          "roll7": 0.86
+        },
+        {
+          "doy": 19,
+          "roll7": 0.71
+        },
+        {
+          "doy": 20,
+          "roll7": 0.86
+        },
+        {
+          "doy": 21,
+          "roll7": 0.86
+        },
+        {
+          "doy": 22,
+          "roll7": 0.86
+        },
+        {
+          "doy": 23,
+          "roll7": 0.86
+        },
+        {
+          "doy": 24,
+          "roll7": 0.71
+        },
+        {
+          "doy": 25,
+          "roll7": 0.86
+        },
+        {
+          "doy": 26,
+          "roll7": 1.0
+        },
+        {
+          "doy": 27,
+          "roll7": 1.0
+        },
+        {
+          "doy": 28,
+          "roll7": 0.86
+        },
+        {
+          "doy": 29,
+          "roll7": 0.86
+        },
+        {
+          "doy": 30,
+          "roll7": 0.71
+        },
+        {
+          "doy": 31,
+          "roll7": 0.71
+        },
+        {
+          "doy": 32,
+          "roll7": 0.71
+        },
+        {
+          "doy": 33,
+          "roll7": 0.57
+        },
+        {
+          "doy": 34,
+          "roll7": 0.43
+        },
+        {
+          "doy": 35,
+          "roll7": 0.43
+        },
+        {
+          "doy": 36,
+          "roll7": 0.29
+        },
+        {
+          "doy": 37,
+          "roll7": 0.43
+        },
+        {
+          "doy": 38,
+          "roll7": 0.29
+        },
+        {
+          "doy": 39,
+          "roll7": 0.29
+        },
+        {
+          "doy": 40,
+          "roll7": 0.43
+        },
+        {
+          "doy": 41,
+          "roll7": 0.71
+        },
+        {
+          "doy": 42,
+          "roll7": 0.86
+        },
+        {
+          "doy": 43,
+          "roll7": 1.0
+        },
+        {
+          "doy": 44,
+          "roll7": 1.14
+        },
+        {
+          "doy": 45,
+          "roll7": 1.14
+        },
+        {
+          "doy": 46,
+          "roll7": 1.14
+        },
+        {
+          "doy": 47,
+          "roll7": 1.14
+        },
+        {
+          "doy": 48,
+          "roll7": 1.14
+        },
+        {
+          "doy": 49,
+          "roll7": 1.0
+        },
+        {
+          "doy": 50,
+          "roll7": 1.0
+        },
+        {
+          "doy": 51,
+          "roll7": 0.71
+        },
+        {
+          "doy": 52,
+          "roll7": 0.71
+        },
+        {
+          "doy": 53,
+          "roll7": 0.57
+        },
+        {
+          "doy": 54,
+          "roll7": 0.57
+        },
+        {
+          "doy": 55,
+          "roll7": 0.29
+        },
+        {
+          "doy": 56,
+          "roll7": 0.29
+        },
+        {
+          "doy": 57,
+          "roll7": 0.29
+        },
+        {
+          "doy": 58,
+          "roll7": 0.29
+        },
+        {
+          "doy": 59,
+          "roll7": 0.29
+        },
+        {
+          "doy": 60,
+          "roll7": 0.57
+        },
+        {
+          "doy": 61,
+          "roll7": 0.43
+        },
+        {
+          "doy": 62,
+          "roll7": 0.43
+        },
+        {
+          "doy": 63,
+          "roll7": 0.57
+        },
+        {
+          "doy": 64,
+          "roll7": 0.43
+        },
+        {
+          "doy": 65,
+          "roll7": 0.57
+        },
+        {
+          "doy": 66,
+          "roll7": 0.71
+        },
+        {
+          "doy": 67,
+          "roll7": 0.57
+        },
+        {
+          "doy": 68,
+          "roll7": 0.71
+        },
+        {
+          "doy": 69,
+          "roll7": 0.86
+        },
+        {
+          "doy": 70,
+          "roll7": 0.71
+        },
+        {
+          "doy": 71,
+          "roll7": 0.86
+        },
+        {
+          "doy": 72,
+          "roll7": 0.71
         }
       ]
     }

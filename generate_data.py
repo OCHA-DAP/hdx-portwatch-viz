@@ -12,6 +12,7 @@ PORT_CONFIG = {
     'Salalah, Oman':      ('oman',     'Salalah'),
     'Djibouti, Djibouti': ('djibouti', 'Djibouti'),
     'Port Sudan, Sudan':  ('sudan',    'Port Sudan'),
+    'Mogadishu, Somalia':  ('somalia',  'Mogadishu'),
 }
 
 STRAIT_CONFIG = {
