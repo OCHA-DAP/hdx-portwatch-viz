@@ -3,8 +3,5 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Raw data — download locally, do not commit
-data/raw/
-
 # macOS
 .DS_Store
