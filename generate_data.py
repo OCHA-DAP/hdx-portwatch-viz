@@ -12,7 +12,8 @@ PORT_CONFIG = {
     'Salalah, Oman':      ('oman',     'Salalah'),
     'Djibouti, Djibouti': ('djibouti', 'Djibouti'),
     'Port Sudan, Sudan':  ('sudan',    'Port Sudan'),
-    'Mogadishu, Somalia':  ('somalia',  'Mogadishu'),
+    'Mogadishu, Somalia': ('somalia',  'Mogadishu'),
+    'Yemen (all ports)':  ('yemen',    None),
 }
 
 STRAIT_CONFIG = {
@@ -72,7 +73,9 @@ def main():
         path = DATA_DIR / f'{country_slug}-daily-port-activity-data-and-shipment-estimates.csv'
         df = pd.read_csv(path)
         df['date'] = pd.to_datetime(df['date'], utc=True).dt.tz_localize(None)
-        df = df[df['portname'] == portname].groupby('date')['portcalls'].sum().reset_index()
+        if portname is not None:
+            df = df[df['portname'] == portname]
+        df = df.groupby('date')['portcalls'].sum().reset_index()
         output['port_data'][display_name] = compute_seasonal(df, 'portcalls')
         print(f'  Latest: {output["port_data"][display_name]["latest_date"]}')
 
