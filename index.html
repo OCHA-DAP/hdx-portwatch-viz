@@ -228,6 +228,7 @@
         </div>
       </div>
       <div class="chart-caption" id="strait-chart-caption"></div>
+      <div id="strait-note" style="font-size:0.72rem; color:#aaa; margin-top:0.75rem;"></div>
     </div>
   </div>
 
@@ -342,6 +343,13 @@ function renderChart(key, name, entry, yLabel) {
   document.getElementById(ids.legendHist).textContent    = `Historical mean (${entry.hist_label})`;
   document.getElementById(ids.caption).innerHTML =
     `Sources: UN Global Platform; IMF PortWatch (<a href="https://portwatch.imf.org" target="_blank" rel="noopener" style="color:#007CE0;">portwatch.imf.org</a>). Data accessed from <a href="https://data.humdata.org/organization/portwatch" target="_blank" rel="noopener" style="color:#007CE0;">HDX</a>. Latest data: ${entry.latest_date}.`;
+
+  if (key === 'strait') {
+    const note = document.getElementById('strait-note');
+    note.textContent = name === 'Strait of Hormuz'
+      ? 'Note: Due to the ongoing conflict in the region, there are reports of GPS jamming, AIS spoofing, and vessels going dark.'
+      : '';
+  }
 
   if (charts[key]) charts[key].destroy();
   const ctx = document.getElementById(ids.canvas).getContext('2d');
