@@ -5,3 +5,9 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Raw data (downloaded at build time, not committed)
+data/raw/
