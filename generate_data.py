@@ -9,6 +9,8 @@ OUT_FILE = Path(__file__).parent / 'data' / 'ports.json'
 PORT_CONFIG = {
     'Beirut, Lebanon':    ('lebanon',  'Beirut'),
     'Mombasa, Kenya':     ('kenya',    'Mombasa'),
+    'Lamu, Kenya':        ('kenya',    'Lamu'),
+    'Beira, Mozambique':     ('mozambique', 'Beira'),
     'Salalah, Oman':      ('oman',     'Salalah'),
     'Djibouti, Djibouti': ('djibouti', 'Djibouti'),
     'Port Sudan, Sudan':  ('sudan',    'Port Sudan'),
