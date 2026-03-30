@@ -9,6 +9,7 @@ RESOURCES = {
     'djibouti-daily-port-activity-data-and-shipment-estimates.csv':     '96a7bdea-8297-49b7-ad6c-adb1d1f48e6d',
     'kenya-daily-port-activity-data-and-shipment-estimates.csv':        'e0bde7c9-2cb7-4eab-ae71-3e2c2e225207',
     'lebanon-daily-port-activity-data-and-shipment-estimates.csv':      '8d1d8984-fd6d-4f8e-af84-32b0ab8bacd3',
+    'mozambique-daily-port-activity-data-and-shipment-estimates.csv':   '9c88af9b-9868-44a6-af3b-2df6db2e8c58',
     'oman-daily-port-activity-data-and-shipment-estimates.csv':         '381b41b9-12c8-4bb3-b056-65ef6ddf1c6b',
     'somalia-daily-port-activity-data-and-shipment-estimates.csv':      '8bf8a420-56b3-492a-96b0-e8acb7f14c04',
     'sudan-daily-port-activity-data-and-shipment-estimates.csv':        '6ce7a041-ce33-4e83-bc66-7fd1d1fa4af8',
