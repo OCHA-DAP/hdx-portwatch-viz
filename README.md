@@ -10,10 +10,15 @@ Raw CSVs come from the [PortWatch dataset on HDX](https://data.humdata.org/organ
 {country-slug}-daily-port-activity-data-and-shipment-estimates.csv
 ```
 
-**Steps to update:**
+Data is updated automatically every Tuesday at 18:00 UTC via GitHub Actions, which downloads the latest CSVs, regenerates `data/ports.json`, and commits the result. You can also trigger a run manually from the Actions tab in the repo.
 
-1. Download the latest CSVs from HDX into `data/raw/`
-2. Run the data generation script:
+To update manually on your machine:
+
+1. Download the latest CSVs from HDX:
+   ```bash
+   uv run python download_data.py
+   ```
+2. Regenerate the data file:
    ```bash
    uv run python generate_data.py
    ```
@@ -30,7 +35,7 @@ PORT_CONFIG = {
 }
 ```
 
-Then re-run `generate_data.py` and commit `data/ports.json`.
+Then add the corresponding HDX resource ID to the `RESOURCES` dict in `download_data.py`, re-run both scripts, and commit `data/ports.json`.
 
 ## Local development
 
@@ -38,7 +43,8 @@ Then re-run `generate_data.py` and commit `data/ports.json`.
 # Install dependencies
 uv sync
 
-# Generate data (requires CSVs in data/raw/)
+# Download raw data and generate data/ports.json
+uv run python download_data.py
 uv run python generate_data.py
 
 # Serve the dashboard locally

@@ -1,0 +1,36 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: '0 18 * * 2'  # Every Tuesday at 18:00 UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Download raw data from HDX
+        run: uv run python download_data.py
+
+      - name: Generate ports.json
+        run: uv run python generate_data.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ports.json
+          git diff --staged --quiet || git commit -m "Update data $(date -u +%Y-%m-%d)"
+          git push
