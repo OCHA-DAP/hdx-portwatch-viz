@@ -20342,7 +20342,7 @@
     "Yemen (all ports)": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "20 Mar 2026",
+      "latest_date": "27 Mar 2026",
       "hist": [
         {
           "doy": 1,
@@ -22849,6 +22849,34 @@
         {
           "doy": 79,
           "roll7": 1.14
+        },
+        {
+          "doy": 80,
+          "roll7": 1.14
+        },
+        {
+          "doy": 81,
+          "roll7": 1.57
+        },
+        {
+          "doy": 82,
+          "roll7": 1.71
+        },
+        {
+          "doy": 83,
+          "roll7": 2.0
+        },
+        {
+          "doy": 84,
+          "roll7": 2.14
+        },
+        {
+          "doy": 85,
+          "roll7": 2.14
+        },
+        {
+          "doy": 86,
+          "roll7": 2.29
         }
       ]
     }
@@ -22860,7 +22888,7 @@
     "Strait of Hormuz": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "22 Mar 2026",
+      "latest_date": "29 Mar 2026",
       "hist": [
         {
           "doy": 1,
@@ -25061,20 +25089,48 @@
       ],
       "current": [
         {
+          "doy": 86,
+          "roll7": 4.0
+        },
+        {
+          "doy": 85,
+          "roll7": 4.25
+        },
+        {
+          "doy": 84,
+          "roll7": 3.6
+        },
+        {
+          "doy": 83,
+          "roll7": 3.33
+        },
+        {
+          "doy": 82,
+          "roll7": 3.43
+        },
+        {
+          "doy": 81,
+          "roll7": 3.14
+        },
+        {
+          "doy": 80,
+          "roll7": 2.57
+        },
+        {
           "doy": 79,
           "roll7": 3.0
         },
         {
           "doy": 78,
-          "roll7": 3.0
+          "roll7": 2.71
         },
         {
           "doy": 77,
-          "roll7": 2.6
+          "roll7": 2.71
         },
         {
           "doy": 76,
-          "roll7": 2.5
+          "roll7": 2.71
         },
         {
           "doy": 75,
