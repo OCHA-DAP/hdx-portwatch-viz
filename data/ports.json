@@ -2555,7 +2555,7 @@
     "Mombasa, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "27 Mar 2026",
+      "latest_date": "03 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -5090,13 +5090,41 @@
         {
           "doy": 86,
           "roll7": 4.71
+        },
+        {
+          "doy": 87,
+          "roll7": 4.57
+        },
+        {
+          "doy": 88,
+          "roll7": 4.43
+        },
+        {
+          "doy": 89,
+          "roll7": 4.57
+        },
+        {
+          "doy": 90,
+          "roll7": 4.43
+        },
+        {
+          "doy": 91,
+          "roll7": 4.0
+        },
+        {
+          "doy": 92,
+          "roll7": 4.0
+        },
+        {
+          "doy": 93,
+          "roll7": 4.14
         }
       ]
     },
     "Lamu, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "27 Mar 2026",
+      "latest_date": "03 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -7631,6 +7659,34 @@
         {
           "doy": 86,
           "roll7": 0.57
+        },
+        {
+          "doy": 87,
+          "roll7": 0.43
+        },
+        {
+          "doy": 88,
+          "roll7": 0.57
+        },
+        {
+          "doy": 89,
+          "roll7": 0.43
+        },
+        {
+          "doy": 90,
+          "roll7": 0.57
+        },
+        {
+          "doy": 91,
+          "roll7": 0.86
+        },
+        {
+          "doy": 92,
+          "roll7": 0.86
+        },
+        {
+          "doy": 93,
+          "roll7": 1.0
         }
       ]
     },
@@ -12719,7 +12775,7 @@
     "Djibouti, Djibouti": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "27 Mar 2026",
+      "latest_date": "03 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -15254,6 +15310,34 @@
         {
           "doy": 86,
           "roll7": 4.29
+        },
+        {
+          "doy": 87,
+          "roll7": 4.14
+        },
+        {
+          "doy": 88,
+          "roll7": 4.43
+        },
+        {
+          "doy": 89,
+          "roll7": 4.0
+        },
+        {
+          "doy": 90,
+          "roll7": 4.0
+        },
+        {
+          "doy": 91,
+          "roll7": 4.0
+        },
+        {
+          "doy": 92,
+          "roll7": 3.43
+        },
+        {
+          "doy": 93,
+          "roll7": 3.71
         }
       ]
     },
