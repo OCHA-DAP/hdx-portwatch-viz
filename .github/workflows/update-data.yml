@@ -2,7 +2,7 @@ name: Update data
 
 on:
   schedule:
-    - cron: '0 18 * * 2'  # Every Tuesday at 18:00 UTC
+    - cron: '0 17 * * 2'  # Every Tuesday at 17:00 UTC
   workflow_dispatch:       # Allow manual trigger
 
 jobs:
