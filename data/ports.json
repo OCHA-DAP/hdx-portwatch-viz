@@ -14,7 +14,7 @@
     "Beirut, Lebanon": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Apr 2026",
+      "latest_date": "17 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -522,45 +522,45 @@
         },
         {
           "doy": 85,
-          "hist_avg": 3.16,
+          "hist_avg": 3.14,
           "upper": 4.26,
-          "lower": 2.07
+          "lower": 2.03
         },
         {
           "doy": 86,
-          "hist_avg": 3.39,
+          "hist_avg": 3.37,
           "upper": 4.65,
-          "lower": 2.13
+          "lower": 2.08
         },
         {
           "doy": 87,
-          "hist_avg": 3.98,
-          "upper": 5.16,
-          "lower": 2.8
+          "hist_avg": 3.96,
+          "upper": 5.17,
+          "lower": 2.75
         },
         {
           "doy": 88,
-          "hist_avg": 4.0,
+          "hist_avg": 3.98,
           "upper": 4.92,
-          "lower": 3.08
-        },
-        {
-          "doy": 89,
-          "hist_avg": 3.96,
-          "upper": 4.88,
           "lower": 3.04
         },
         {
-          "doy": 90,
-          "hist_avg": 4.06,
+          "doy": 89,
+          "hist_avg": 3.94,
           "upper": 4.88,
-          "lower": 3.25
+          "lower": 3.0
+        },
+        {
+          "doy": 90,
+          "hist_avg": 4.04,
+          "upper": 4.87,
+          "lower": 3.21
         },
         {
           "doy": 91,
-          "hist_avg": 4.1,
-          "upper": 4.9,
-          "lower": 3.31
+          "hist_avg": 4.08,
+          "upper": 4.89,
+          "lower": 3.27
         },
         {
           "doy": 92,
@@ -2564,26 +2564,82 @@
         },
         {
           "doy": 90,
-          "roll7": 2.0
+          "roll7": 2.14
         },
         {
           "doy": 91,
-          "roll7": 2.43
+          "roll7": 2.57
         },
         {
           "doy": 92,
-          "roll7": 2.0
+          "roll7": 2.14
         },
         {
           "doy": 93,
+          "roll7": 2.14
+        },
+        {
+          "doy": 94,
           "roll7": 2.0
+        },
+        {
+          "doy": 95,
+          "roll7": 1.57
+        },
+        {
+          "doy": 96,
+          "roll7": 1.57
+        },
+        {
+          "doy": 97,
+          "roll7": 1.71
+        },
+        {
+          "doy": 98,
+          "roll7": 1.43
+        },
+        {
+          "doy": 99,
+          "roll7": 1.71
+        },
+        {
+          "doy": 100,
+          "roll7": 1.86
+        },
+        {
+          "doy": 101,
+          "roll7": 1.57
+        },
+        {
+          "doy": 102,
+          "roll7": 1.71
+        },
+        {
+          "doy": 103,
+          "roll7": 2.43
+        },
+        {
+          "doy": 104,
+          "roll7": 2.57
+        },
+        {
+          "doy": 105,
+          "roll7": 2.71
+        },
+        {
+          "doy": 106,
+          "roll7": 2.86
+        },
+        {
+          "doy": 107,
+          "roll7": 2.86
         }
       ]
     },
     "Mombasa, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Apr 2026",
+      "latest_date": "17 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -2671,15 +2727,15 @@
         },
         {
           "doy": 15,
-          "hist_avg": 3.98,
-          "upper": 4.62,
-          "lower": 3.34
+          "hist_avg": 3.96,
+          "upper": 4.61,
+          "lower": 3.31
         },
         {
           "doy": 16,
-          "hist_avg": 3.94,
+          "hist_avg": 3.92,
           "upper": 4.62,
-          "lower": 3.25
+          "lower": 3.21
         },
         {
           "doy": 17,
@@ -2713,15 +2769,15 @@
         },
         {
           "doy": 22,
-          "hist_avg": 3.8,
-          "upper": 4.16,
-          "lower": 3.43
+          "hist_avg": 3.82,
+          "upper": 4.18,
+          "lower": 3.45
         },
         {
           "doy": 23,
-          "hist_avg": 3.9,
-          "upper": 4.4,
-          "lower": 3.4
+          "hist_avg": 3.92,
+          "upper": 4.41,
+          "lower": 3.43
         },
         {
           "doy": 24,
@@ -2791,9 +2847,9 @@
         },
         {
           "doy": 35,
-          "hist_avg": 3.61,
-          "upper": 4.23,
-          "lower": 3.0
+          "hist_avg": 3.59,
+          "upper": 4.17,
+          "lower": 3.01
         },
         {
           "doy": 36,
@@ -2833,8 +2889,8 @@
         },
         {
           "doy": 42,
-          "hist_avg": 3.9,
-          "upper": 4.44,
+          "hist_avg": 3.92,
+          "upper": 4.49,
           "lower": 3.35
         },
         {
@@ -3763,45 +3819,45 @@
         },
         {
           "doy": 197,
-          "hist_avg": 4.1,
-          "upper": 4.82,
-          "lower": 3.38
+          "hist_avg": 4.12,
+          "upper": 4.88,
+          "lower": 3.37
         },
         {
           "doy": 198,
-          "hist_avg": 4.33,
-          "upper": 5.26,
-          "lower": 3.39
+          "hist_avg": 4.35,
+          "upper": 5.32,
+          "lower": 3.38
         },
         {
           "doy": 199,
-          "hist_avg": 4.2,
-          "upper": 5.02,
+          "hist_avg": 4.22,
+          "upper": 5.07,
           "lower": 3.38
         },
         {
           "doy": 200,
-          "hist_avg": 4.12,
-          "upper": 4.82,
+          "hist_avg": 4.14,
+          "upper": 4.86,
           "lower": 3.43
         },
         {
           "doy": 201,
-          "hist_avg": 4.1,
-          "upper": 4.64,
+          "hist_avg": 4.12,
+          "upper": 4.68,
           "lower": 3.56
         },
         {
           "doy": 202,
-          "hist_avg": 4.18,
-          "upper": 4.79,
-          "lower": 3.57
+          "hist_avg": 4.2,
+          "upper": 4.85,
+          "lower": 3.56
         },
         {
           "doy": 203,
-          "hist_avg": 3.94,
-          "upper": 4.59,
-          "lower": 3.28
+          "hist_avg": 3.96,
+          "upper": 4.65,
+          "lower": 3.27
         },
         {
           "doy": 204,
@@ -4411,15 +4467,15 @@
         },
         {
           "doy": 305,
-          "hist_avg": 3.92,
-          "upper": 4.6,
-          "lower": 3.24
+          "hist_avg": 3.9,
+          "upper": 4.58,
+          "lower": 3.21
         },
         {
           "doy": 306,
-          "hist_avg": 3.82,
-          "upper": 4.46,
-          "lower": 3.17
+          "hist_avg": 3.8,
+          "upper": 4.45,
+          "lower": 3.14
         },
         {
           "doy": 307,
@@ -4453,15 +4509,15 @@
         },
         {
           "doy": 312,
-          "hist_avg": 4.08,
+          "hist_avg": 4.1,
           "upper": 4.59,
-          "lower": 3.57
+          "lower": 3.61
         },
         {
           "doy": 313,
-          "hist_avg": 4.18,
-          "upper": 4.68,
-          "lower": 3.69
+          "hist_avg": 4.2,
+          "upper": 4.7,
+          "lower": 3.71
         },
         {
           "doy": 314,
@@ -4997,31 +5053,31 @@
         },
         {
           "doy": 56,
-          "roll7": 4.29
-        },
-        {
-          "doy": 57,
-          "roll7": 4.57
-        },
-        {
-          "doy": 58,
-          "roll7": 4.29
-        },
-        {
-          "doy": 59,
-          "roll7": 3.71
-        },
-        {
-          "doy": 60,
-          "roll7": 3.86
-        },
-        {
-          "doy": 61,
           "roll7": 4.14
         },
         {
+          "doy": 57,
+          "roll7": 4.43
+        },
+        {
+          "doy": 58,
+          "roll7": 4.14
+        },
+        {
+          "doy": 59,
+          "roll7": 3.57
+        },
+        {
+          "doy": 60,
+          "roll7": 3.71
+        },
+        {
+          "doy": 61,
+          "roll7": 4.0
+        },
+        {
           "doy": 62,
-          "roll7": 5.0
+          "roll7": 4.86
         },
         {
           "doy": 63,
@@ -5146,13 +5202,69 @@
         {
           "doy": 93,
           "roll7": 4.14
+        },
+        {
+          "doy": 94,
+          "roll7": 4.14
+        },
+        {
+          "doy": 95,
+          "roll7": 4.43
+        },
+        {
+          "doy": 96,
+          "roll7": 4.14
+        },
+        {
+          "doy": 97,
+          "roll7": 4.29
+        },
+        {
+          "doy": 98,
+          "roll7": 4.43
+        },
+        {
+          "doy": 99,
+          "roll7": 4.43
+        },
+        {
+          "doy": 100,
+          "roll7": 4.43
+        },
+        {
+          "doy": 101,
+          "roll7": 4.29
+        },
+        {
+          "doy": 102,
+          "roll7": 4.14
+        },
+        {
+          "doy": 103,
+          "roll7": 4.43
+        },
+        {
+          "doy": 104,
+          "roll7": 4.43
+        },
+        {
+          "doy": 105,
+          "roll7": 4.57
+        },
+        {
+          "doy": 106,
+          "roll7": 4.57
+        },
+        {
+          "doy": 107,
+          "roll7": 4.57
         }
       ]
     },
     "Lamu, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Apr 2026",
+      "latest_date": "17 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -7715,13 +7827,69 @@
         {
           "doy": 93,
           "roll7": 1.0
+        },
+        {
+          "doy": 94,
+          "roll7": 1.14
+        },
+        {
+          "doy": 95,
+          "roll7": 1.0
+        },
+        {
+          "doy": 96,
+          "roll7": 0.86
+        },
+        {
+          "doy": 97,
+          "roll7": 0.71
+        },
+        {
+          "doy": 98,
+          "roll7": 0.71
+        },
+        {
+          "doy": 99,
+          "roll7": 0.71
+        },
+        {
+          "doy": 100,
+          "roll7": 0.86
+        },
+        {
+          "doy": 101,
+          "roll7": 0.71
+        },
+        {
+          "doy": 102,
+          "roll7": 0.71
+        },
+        {
+          "doy": 103,
+          "roll7": 0.86
+        },
+        {
+          "doy": 104,
+          "roll7": 0.86
+        },
+        {
+          "doy": 105,
+          "roll7": 0.71
+        },
+        {
+          "doy": 106,
+          "roll7": 0.57
+        },
+        {
+          "doy": 107,
+          "roll7": 0.43
         }
       ]
     },
     "Beira, Mozambique": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Apr 2026",
+      "latest_date": "17 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -10284,13 +10452,69 @@
         {
           "doy": 93,
           "roll7": 1.86
+        },
+        {
+          "doy": 94,
+          "roll7": 1.86
+        },
+        {
+          "doy": 95,
+          "roll7": 1.71
+        },
+        {
+          "doy": 96,
+          "roll7": 1.57
+        },
+        {
+          "doy": 97,
+          "roll7": 1.71
+        },
+        {
+          "doy": 98,
+          "roll7": 1.57
+        },
+        {
+          "doy": 99,
+          "roll7": 1.57
+        },
+        {
+          "doy": 100,
+          "roll7": 1.29
+        },
+        {
+          "doy": 101,
+          "roll7": 1.43
+        },
+        {
+          "doy": 102,
+          "roll7": 1.43
+        },
+        {
+          "doy": 103,
+          "roll7": 1.29
+        },
+        {
+          "doy": 104,
+          "roll7": 1.29
+        },
+        {
+          "doy": 105,
+          "roll7": 1.43
+        },
+        {
+          "doy": 106,
+          "roll7": 1.71
+        },
+        {
+          "doy": 107,
+          "roll7": 1.86
         }
       ]
     },
     "Salalah, Oman": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Apr 2026",
+      "latest_date": "17 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -11260,44 +11484,44 @@
         },
         {
           "doy": 162,
-          "hist_avg": 4.41,
-          "upper": 4.91,
-          "lower": 3.9
+          "hist_avg": 4.43,
+          "upper": 4.92,
+          "lower": 3.94
         },
         {
           "doy": 163,
-          "hist_avg": 4.29,
-          "upper": 4.73,
-          "lower": 3.84
+          "hist_avg": 4.31,
+          "upper": 4.75,
+          "lower": 3.86
         },
         {
           "doy": 164,
-          "hist_avg": 4.18,
-          "upper": 4.63,
-          "lower": 3.74
+          "hist_avg": 4.2,
+          "upper": 4.65,
+          "lower": 3.75
         },
         {
           "doy": 165,
-          "hist_avg": 4.18,
-          "upper": 4.63,
-          "lower": 3.74
+          "hist_avg": 4.2,
+          "upper": 4.66,
+          "lower": 3.75
         },
         {
           "doy": 166,
-          "hist_avg": 4.29,
-          "upper": 4.89,
-          "lower": 3.68
+          "hist_avg": 4.31,
+          "upper": 4.91,
+          "lower": 3.7
         },
         {
           "doy": 167,
-          "hist_avg": 4.45,
-          "upper": 4.88,
-          "lower": 4.02
+          "hist_avg": 4.47,
+          "upper": 4.91,
+          "lower": 4.03
         },
         {
           "doy": 168,
-          "hist_avg": 4.22,
-          "upper": 4.65,
+          "hist_avg": 4.24,
+          "upper": 4.69,
           "lower": 3.8
         },
         {
@@ -12853,6 +13077,62 @@
         {
           "doy": 93,
           "roll7": 3.14
+        },
+        {
+          "doy": 94,
+          "roll7": 3.71
+        },
+        {
+          "doy": 95,
+          "roll7": 4.29
+        },
+        {
+          "doy": 96,
+          "roll7": 4.0
+        },
+        {
+          "doy": 97,
+          "roll7": 4.29
+        },
+        {
+          "doy": 98,
+          "roll7": 4.0
+        },
+        {
+          "doy": 99,
+          "roll7": 4.57
+        },
+        {
+          "doy": 100,
+          "roll7": 4.43
+        },
+        {
+          "doy": 101,
+          "roll7": 4.71
+        },
+        {
+          "doy": 102,
+          "roll7": 5.0
+        },
+        {
+          "doy": 103,
+          "roll7": 5.29
+        },
+        {
+          "doy": 104,
+          "roll7": 5.43
+        },
+        {
+          "doy": 105,
+          "roll7": 5.71
+        },
+        {
+          "doy": 106,
+          "roll7": 5.57
+        },
+        {
+          "doy": 107,
+          "roll7": 5.14
         }
       ]
     },
