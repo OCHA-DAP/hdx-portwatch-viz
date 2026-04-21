@@ -23476,7 +23476,7 @@
     "Strait of Hormuz": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "12 Apr 2026",
+      "latest_date": "19 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -25677,20 +25677,48 @@
       ],
       "current": [
         {
+          "doy": 107,
+          "roll7": 15.67
+        },
+        {
+          "doy": 106,
+          "roll7": 13.25
+        },
+        {
+          "doy": 105,
+          "roll7": 12.6
+        },
+        {
+          "doy": 104,
+          "roll7": 12.17
+        },
+        {
+          "doy": 103,
+          "roll7": 12.0
+        },
+        {
+          "doy": 102,
+          "roll7": 12.57
+        },
+        {
+          "doy": 101,
+          "roll7": 10.0
+        },
+        {
           "doy": 100,
-          "roll7": 8.0
+          "roll7": 8.71
         },
         {
           "doy": 99,
-          "roll7": 8.25
+          "roll7": 9.14
         },
         {
           "doy": 98,
-          "roll7": 7.4
+          "roll7": 8.29
         },
         {
           "doy": 97,
-          "roll7": 6.83
+          "roll7": 7.43
         },
         {
           "doy": 96,
