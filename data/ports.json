@@ -12859,7 +12859,7 @@
     "Djibouti, Djibouti": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Apr 2026",
+      "latest_date": "17 Apr 2026",
       "hist": [
         {
           "doy": 1,
@@ -14615,45 +14615,45 @@
         },
         {
           "doy": 293,
-          "hist_avg": 3.49,
-          "upper": 4.11,
+          "hist_avg": 3.47,
+          "upper": 4.07,
           "lower": 2.87
         },
         {
           "doy": 294,
-          "hist_avg": 3.37,
-          "upper": 3.79,
+          "hist_avg": 3.35,
+          "upper": 3.75,
           "lower": 2.94
         },
         {
           "doy": 295,
-          "hist_avg": 3.33,
-          "upper": 3.71,
-          "lower": 2.94
+          "hist_avg": 3.31,
+          "upper": 3.68,
+          "lower": 2.93
         },
         {
           "doy": 296,
-          "hist_avg": 3.22,
-          "upper": 3.74,
-          "lower": 2.71
+          "hist_avg": 3.2,
+          "upper": 3.7,
+          "lower": 2.7
         },
         {
           "doy": 297,
-          "hist_avg": 3.29,
-          "upper": 3.64,
-          "lower": 2.94
+          "hist_avg": 3.27,
+          "upper": 3.62,
+          "lower": 2.91
         },
         {
           "doy": 298,
-          "hist_avg": 3.35,
-          "upper": 3.74,
-          "lower": 2.95
+          "hist_avg": 3.33,
+          "upper": 3.73,
+          "lower": 2.92
         },
         {
           "doy": 299,
-          "hist_avg": 3.41,
-          "upper": 3.86,
-          "lower": 2.95
+          "hist_avg": 3.39,
+          "upper": 3.84,
+          "lower": 2.93
         },
         {
           "doy": 300,
@@ -15421,6 +15421,62 @@
         },
         {
           "doy": 93,
+          "roll7": 3.71
+        },
+        {
+          "doy": 94,
+          "roll7": 3.29
+        },
+        {
+          "doy": 95,
+          "roll7": 3.0
+        },
+        {
+          "doy": 96,
+          "roll7": 2.71
+        },
+        {
+          "doy": 97,
+          "roll7": 2.71
+        },
+        {
+          "doy": 98,
+          "roll7": 2.43
+        },
+        {
+          "doy": 99,
+          "roll7": 2.86
+        },
+        {
+          "doy": 100,
+          "roll7": 3.0
+        },
+        {
+          "doy": 101,
+          "roll7": 2.86
+        },
+        {
+          "doy": 102,
+          "roll7": 3.14
+        },
+        {
+          "doy": 103,
+          "roll7": 3.57
+        },
+        {
+          "doy": 104,
+          "roll7": 3.71
+        },
+        {
+          "doy": 105,
+          "roll7": 4.0
+        },
+        {
+          "doy": 106,
+          "roll7": 4.0
+        },
+        {
+          "doy": 107,
           "roll7": 3.71
         }
       ]
