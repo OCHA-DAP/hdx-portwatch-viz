@@ -14,7 +14,7 @@
     "Beirut, Lebanon": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -2941,13 +2941,41 @@
         {
           "doy": 184,
           "roll7": 3.29
+        },
+        {
+          "doy": 185,
+          "roll7": 3.14
+        },
+        {
+          "doy": 186,
+          "roll7": 2.71
+        },
+        {
+          "doy": 187,
+          "roll7": 2.86
+        },
+        {
+          "doy": 188,
+          "roll7": 2.29
+        },
+        {
+          "doy": 189,
+          "roll7": 2.86
+        },
+        {
+          "doy": 190,
+          "roll7": 3.57
+        },
+        {
+          "doy": 191,
+          "roll7": 3.57
         }
       ]
     },
     "Mombasa, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -5874,13 +5902,41 @@
         {
           "doy": 184,
           "roll7": 4.86
+        },
+        {
+          "doy": 185,
+          "roll7": 4.86
+        },
+        {
+          "doy": 186,
+          "roll7": 5.0
+        },
+        {
+          "doy": 187,
+          "roll7": 4.86
+        },
+        {
+          "doy": 188,
+          "roll7": 4.86
+        },
+        {
+          "doy": 189,
+          "roll7": 5.29
+        },
+        {
+          "doy": 190,
+          "roll7": 4.86
+        },
+        {
+          "doy": 191,
+          "roll7": 5.14
         }
       ]
     },
     "Lamu, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -8807,13 +8863,41 @@
         {
           "doy": 184,
           "roll7": 0.86
+        },
+        {
+          "doy": 185,
+          "roll7": 0.86
+        },
+        {
+          "doy": 186,
+          "roll7": 0.71
+        },
+        {
+          "doy": 187,
+          "roll7": 0.71
+        },
+        {
+          "doy": 188,
+          "roll7": 0.86
+        },
+        {
+          "doy": 189,
+          "roll7": 0.86
+        },
+        {
+          "doy": 190,
+          "roll7": 0.71
+        },
+        {
+          "doy": 191,
+          "roll7": 0.71
         }
       ]
     },
     "Beira, Mozambique": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -11740,13 +11824,41 @@
         {
           "doy": 184,
           "roll7": 2.86
+        },
+        {
+          "doy": 185,
+          "roll7": 2.29
+        },
+        {
+          "doy": 186,
+          "roll7": 2.29
+        },
+        {
+          "doy": 187,
+          "roll7": 2.43
+        },
+        {
+          "doy": 188,
+          "roll7": 2.29
+        },
+        {
+          "doy": 189,
+          "roll7": 2.0
+        },
+        {
+          "doy": 190,
+          "roll7": 2.29
+        },
+        {
+          "doy": 191,
+          "roll7": 2.0
         }
       ]
     },
     "Salalah, Oman": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -14673,13 +14785,41 @@
         {
           "doy": 184,
           "roll7": 5.0
+        },
+        {
+          "doy": 185,
+          "roll7": 4.57
+        },
+        {
+          "doy": 186,
+          "roll7": 4.43
+        },
+        {
+          "doy": 187,
+          "roll7": 5.14
+        },
+        {
+          "doy": 188,
+          "roll7": 4.86
+        },
+        {
+          "doy": 189,
+          "roll7": 4.86
+        },
+        {
+          "doy": 190,
+          "roll7": 5.29
+        },
+        {
+          "doy": 191,
+          "roll7": 5.43
         }
       ]
     },
     "Djibouti, Djibouti": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -17606,13 +17746,41 @@
         {
           "doy": 184,
           "roll7": 3.71
+        },
+        {
+          "doy": 185,
+          "roll7": 4.29
+        },
+        {
+          "doy": 186,
+          "roll7": 4.29
+        },
+        {
+          "doy": 187,
+          "roll7": 3.86
+        },
+        {
+          "doy": 188,
+          "roll7": 3.86
+        },
+        {
+          "doy": 189,
+          "roll7": 3.71
+        },
+        {
+          "doy": 190,
+          "roll7": 4.0
+        },
+        {
+          "doy": 191,
+          "roll7": 3.43
         }
       ]
     },
     "Port Sudan, Sudan": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -20539,13 +20707,41 @@
         {
           "doy": 184,
           "roll7": 1.57
+        },
+        {
+          "doy": 185,
+          "roll7": 1.86
+        },
+        {
+          "doy": 186,
+          "roll7": 2.14
+        },
+        {
+          "doy": 187,
+          "roll7": 1.57
+        },
+        {
+          "doy": 188,
+          "roll7": 1.43
+        },
+        {
+          "doy": 189,
+          "roll7": 1.57
+        },
+        {
+          "doy": 190,
+          "roll7": 1.71
+        },
+        {
+          "doy": 191,
+          "roll7": 1.86
         }
       ]
     },
     "Mogadishu, Somalia": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -23472,13 +23668,41 @@
         {
           "doy": 184,
           "roll7": 0.86
+        },
+        {
+          "doy": 185,
+          "roll7": 1.0
+        },
+        {
+          "doy": 186,
+          "roll7": 0.71
+        },
+        {
+          "doy": 187,
+          "roll7": 0.43
+        },
+        {
+          "doy": 188,
+          "roll7": 0.57
+        },
+        {
+          "doy": 189,
+          "roll7": 0.43
+        },
+        {
+          "doy": 190,
+          "roll7": 0.43
+        },
+        {
+          "doy": 191,
+          "roll7": 0.43
         }
       ]
     },
     "Yemen (all ports)": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "03 Jul 2026",
+      "latest_date": "10 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -26405,6 +26629,34 @@
         {
           "doy": 184,
           "roll7": 2.71
+        },
+        {
+          "doy": 185,
+          "roll7": 2.29
+        },
+        {
+          "doy": 186,
+          "roll7": 2.0
+        },
+        {
+          "doy": 187,
+          "roll7": 1.86
+        },
+        {
+          "doy": 188,
+          "roll7": 1.29
+        },
+        {
+          "doy": 189,
+          "roll7": 1.43
+        },
+        {
+          "doy": 190,
+          "roll7": 1.57
+        },
+        {
+          "doy": 191,
+          "roll7": 1.29
         }
       ]
     }
@@ -26416,7 +26668,7 @@
     "Strait of Hormuz": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "05 Jul 2026",
+      "latest_date": "12 Jul 2026",
       "hist": [
         {
           "doy": 1,
@@ -28617,68 +28869,96 @@
       ],
       "current": [
         {
+          "doy": 191,
+          "roll7": 11.0
+        },
+        {
+          "doy": 190,
+          "roll7": 11.0
+        },
+        {
+          "doy": 189,
+          "roll7": 11.8
+        },
+        {
+          "doy": 188,
+          "roll7": 14.5
+        },
+        {
+          "doy": 187,
+          "roll7": 16.43
+        },
+        {
+          "doy": 186,
+          "roll7": 18.71
+        },
+        {
+          "doy": 185,
+          "roll7": 19.86
+        },
+        {
           "doy": 184,
-          "roll7": 31.0
+          "roll7": 23.0
         },
         {
           "doy": 183,
-          "roll7": 32.25
+          "roll7": 26.29
         },
         {
           "doy": 182,
-          "roll7": 34.2
+          "roll7": 29.86
         },
         {
           "doy": 181,
-          "roll7": 32.17
+          "roll7": 28.86
         },
         {
           "doy": 180,
-          "roll7": 32.14
+          "roll7": 29.29
         },
         {
           "doy": 179,
-          "roll7": 30.29
+          "roll7": 28.43
         },
         {
           "doy": 178,
-          "roll7": 30.71
-        },
-        {
-          "doy": 177,
-          "roll7": 31.29
-        },
-        {
-          "doy": 176,
-          "roll7": 33.43
-        },
-        {
-          "doy": 175,
-          "roll7": 34.86
-        },
-        {
-          "doy": 174,
-          "roll7": 33.86
-        },
-        {
-          "doy": 173,
-          "roll7": 31.29
-        },
-        {
-          "doy": 172,
-          "roll7": 29.43
-        },
-        {
-          "doy": 171,
           "roll7": 29.14
         },
         {
+          "doy": 177,
+          "roll7": 30.0
+        },
+        {
+          "doy": 176,
+          "roll7": 32.29
+        },
+        {
+          "doy": 175,
+          "roll7": 33.86
+        },
+        {
+          "doy": 174,
+          "roll7": 33.0
+        },
+        {
+          "doy": 173,
+          "roll7": 30.57
+        },
+        {
+          "doy": 172,
+          "roll7": 28.86
+        },
+        {
+          "doy": 171,
+          "roll7": 28.71
+        },
+        {
           "doy": 170,
-          "roll7": 25.57
+          "roll7": 25.29
         },
         {
           "doy": 169,
-          "roll7": 21.43
+          "roll7": 21.29
         },
         {
           "doy": 168,
