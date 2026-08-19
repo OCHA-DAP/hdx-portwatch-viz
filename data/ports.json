@@ -14,7 +14,7 @@
     "Beirut, Lebanon": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -3081,13 +3081,41 @@
         {
           "doy": 219,
           "roll7": 3.86
+        },
+        {
+          "doy": 220,
+          "roll7": 4.43
+        },
+        {
+          "doy": 221,
+          "roll7": 4.43
+        },
+        {
+          "doy": 222,
+          "roll7": 4.14
+        },
+        {
+          "doy": 223,
+          "roll7": 5.29
+        },
+        {
+          "doy": 224,
+          "roll7": 5.29
+        },
+        {
+          "doy": 225,
+          "roll7": 5.14
+        },
+        {
+          "doy": 226,
+          "roll7": 5.0
         }
       ]
     },
     "Mombasa, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -6154,13 +6182,41 @@
         {
           "doy": 219,
           "roll7": 4.29
+        },
+        {
+          "doy": 220,
+          "roll7": 4.86
+        },
+        {
+          "doy": 221,
+          "roll7": 4.57
+        },
+        {
+          "doy": 222,
+          "roll7": 5.0
+        },
+        {
+          "doy": 223,
+          "roll7": 5.29
+        },
+        {
+          "doy": 224,
+          "roll7": 5.57
+        },
+        {
+          "doy": 225,
+          "roll7": 5.43
+        },
+        {
+          "doy": 226,
+          "roll7": 5.43
         }
       ]
     },
     "Lamu, Kenya": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -9227,13 +9283,41 @@
         {
           "doy": 219,
           "roll7": 1.0
+        },
+        {
+          "doy": 220,
+          "roll7": 0.86
+        },
+        {
+          "doy": 221,
+          "roll7": 0.86
+        },
+        {
+          "doy": 222,
+          "roll7": 0.71
+        },
+        {
+          "doy": 223,
+          "roll7": 1.14
+        },
+        {
+          "doy": 224,
+          "roll7": 1.29
+        },
+        {
+          "doy": 225,
+          "roll7": 1.14
+        },
+        {
+          "doy": 226,
+          "roll7": 1.14
         }
       ]
     },
     "Beira, Mozambique": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -12300,13 +12384,41 @@
         {
           "doy": 219,
           "roll7": 1.29
+        },
+        {
+          "doy": 220,
+          "roll7": 1.0
+        },
+        {
+          "doy": 221,
+          "roll7": 1.29
+        },
+        {
+          "doy": 222,
+          "roll7": 1.0
+        },
+        {
+          "doy": 223,
+          "roll7": 1.14
+        },
+        {
+          "doy": 224,
+          "roll7": 1.14
+        },
+        {
+          "doy": 225,
+          "roll7": 1.14
+        },
+        {
+          "doy": 226,
+          "roll7": 1.14
         }
       ]
     },
     "Salalah, Oman": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -15373,13 +15485,41 @@
         {
           "doy": 219,
           "roll7": 5.57
+        },
+        {
+          "doy": 220,
+          "roll7": 5.57
+        },
+        {
+          "doy": 221,
+          "roll7": 5.43
+        },
+        {
+          "doy": 222,
+          "roll7": 5.86
+        },
+        {
+          "doy": 223,
+          "roll7": 5.86
+        },
+        {
+          "doy": 224,
+          "roll7": 5.71
+        },
+        {
+          "doy": 225,
+          "roll7": 5.86
+        },
+        {
+          "doy": 226,
+          "roll7": 5.57
         }
       ]
     },
     "Djibouti, Djibouti": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -18446,13 +18586,41 @@
         {
           "doy": 219,
           "roll7": 2.86
+        },
+        {
+          "doy": 220,
+          "roll7": 2.71
+        },
+        {
+          "doy": 221,
+          "roll7": 2.57
+        },
+        {
+          "doy": 222,
+          "roll7": 2.71
+        },
+        {
+          "doy": 223,
+          "roll7": 2.71
+        },
+        {
+          "doy": 224,
+          "roll7": 2.71
+        },
+        {
+          "doy": 225,
+          "roll7": 2.71
+        },
+        {
+          "doy": 226,
+          "roll7": 2.57
         }
       ]
     },
     "Port Sudan, Sudan": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -21519,13 +21687,41 @@
         {
           "doy": 219,
           "roll7": 1.71
+        },
+        {
+          "doy": 220,
+          "roll7": 1.86
+        },
+        {
+          "doy": 221,
+          "roll7": 2.14
+        },
+        {
+          "doy": 222,
+          "roll7": 2.14
+        },
+        {
+          "doy": 223,
+          "roll7": 2.0
+        },
+        {
+          "doy": 224,
+          "roll7": 1.71
+        },
+        {
+          "doy": 225,
+          "roll7": 1.43
+        },
+        {
+          "doy": 226,
+          "roll7": 1.0
         }
       ]
     },
     "Mogadishu, Somalia": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -24592,13 +24788,41 @@
         {
           "doy": 219,
           "roll7": 0.43
+        },
+        {
+          "doy": 220,
+          "roll7": 0.43
+        },
+        {
+          "doy": 221,
+          "roll7": 0.43
+        },
+        {
+          "doy": 222,
+          "roll7": 0.43
+        },
+        {
+          "doy": 223,
+          "roll7": 0.43
+        },
+        {
+          "doy": 224,
+          "roll7": 0.43
+        },
+        {
+          "doy": 225,
+          "roll7": 0.43
+        },
+        {
+          "doy": 226,
+          "roll7": 0.29
         }
       ]
     },
     "Yemen (all ports)": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "07 Aug 2026",
+      "latest_date": "14 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -27665,6 +27889,34 @@
         {
           "doy": 219,
           "roll7": 2.29
+        },
+        {
+          "doy": 220,
+          "roll7": 2.43
+        },
+        {
+          "doy": 221,
+          "roll7": 1.86
+        },
+        {
+          "doy": 222,
+          "roll7": 1.57
+        },
+        {
+          "doy": 223,
+          "roll7": 1.71
+        },
+        {
+          "doy": 224,
+          "roll7": 1.86
+        },
+        {
+          "doy": 225,
+          "roll7": 2.0
+        },
+        {
+          "doy": 226,
+          "roll7": 1.71
         }
       ]
     }
@@ -27676,7 +27928,7 @@
     "Strait of Hormuz": {
       "current_year": 2026,
       "hist_label": "2019\u20132025",
-      "latest_date": "09 Aug 2026",
+      "latest_date": "16 Aug 2026",
       "hist": [
         {
           "doy": 1,
@@ -28034,9 +28286,9 @@
         },
         {
           "doy": 60,
-          "hist_avg": 71.33,
-          "upper": 83.74,
-          "lower": 58.92
+          "hist_avg": 71.35,
+          "upper": 83.76,
+          "lower": 58.94
         },
         {
           "doy": 61,
@@ -28076,8 +28328,8 @@
         },
         {
           "doy": 67,
-          "hist_avg": 72.73,
-          "upper": 89.18,
+          "hist_avg": 72.71,
+          "upper": 89.14,
           "lower": 56.29
         },
         {
@@ -28094,45 +28346,45 @@
         },
         {
           "doy": 70,
-          "hist_avg": 73.39,
-          "upper": 92.42,
+          "hist_avg": 73.37,
+          "upper": 92.38,
           "lower": 54.35
         },
         {
           "doy": 71,
-          "hist_avg": 73.24,
-          "upper": 92.78,
-          "lower": 53.71
+          "hist_avg": 73.22,
+          "upper": 92.73,
+          "lower": 53.72
         },
         {
           "doy": 72,
-          "hist_avg": 73.49,
-          "upper": 92.35,
-          "lower": 54.63
+          "hist_avg": 73.47,
+          "upper": 92.3,
+          "lower": 54.64
         },
         {
           "doy": 73,
-          "hist_avg": 72.35,
-          "upper": 90.03,
-          "lower": 54.66
+          "hist_avg": 72.33,
+          "upper": 89.98,
+          "lower": 54.67
         },
         {
           "doy": 74,
-          "hist_avg": 72.41,
-          "upper": 90.77,
-          "lower": 54.04
+          "hist_avg": 72.39,
+          "upper": 90.72,
+          "lower": 54.05
         },
         {
           "doy": 75,
-          "hist_avg": 72.84,
-          "upper": 92.45,
-          "lower": 53.22
+          "hist_avg": 72.82,
+          "upper": 92.4,
+          "lower": 53.23
         },
         {
           "doy": 76,
-          "hist_avg": 71.57,
-          "upper": 90.72,
-          "lower": 52.42
+          "hist_avg": 71.55,
+          "upper": 90.67,
+          "lower": 52.43
         },
         {
           "doy": 77,
@@ -28232,56 +28484,56 @@
         },
         {
           "doy": 93,
-          "hist_avg": 84.35,
-          "upper": 97.3,
-          "lower": 71.39
+          "hist_avg": 84.37,
+          "upper": 97.32,
+          "lower": 71.41
         },
         {
           "doy": 94,
-          "hist_avg": 84.22,
-          "upper": 97.99,
-          "lower": 70.45
+          "hist_avg": 84.88,
+          "upper": 98.77,
+          "lower": 70.98
         },
         {
           "doy": 95,
-          "hist_avg": 85.55,
-          "upper": 99.04,
-          "lower": 72.07
+          "hist_avg": 86.22,
+          "upper": 100.0,
+          "lower": 72.45
         },
         {
           "doy": 96,
-          "hist_avg": 86.33,
-          "upper": 101.4,
-          "lower": 71.25
+          "hist_avg": 87.0,
+          "upper": 102.55,
+          "lower": 71.45
         },
         {
           "doy": 97,
-          "hist_avg": 84.98,
-          "upper": 100.57,
-          "lower": 69.39
+          "hist_avg": 85.65,
+          "upper": 101.82,
+          "lower": 69.49
         },
         {
           "doy": 98,
-          "hist_avg": 82.61,
-          "upper": 99.61,
-          "lower": 65.62
+          "hist_avg": 83.29,
+          "upper": 100.7,
+          "lower": 65.87
         },
         {
           "doy": 99,
-          "hist_avg": 80.8,
-          "upper": 97.85,
-          "lower": 63.74
+          "hist_avg": 81.47,
+          "upper": 99.18,
+          "lower": 63.76
         },
         {
           "doy": 100,
-          "hist_avg": 78.39,
-          "upper": 95.34,
-          "lower": 61.43
+          "hist_avg": 79.04,
+          "upper": 96.61,
+          "lower": 61.47
         },
         {
           "doy": 101,
-          "hist_avg": 78.37,
-          "upper": 94.18,
+          "hist_avg": 78.39,
+          "upper": 94.22,
           "lower": 62.56
         },
         {
@@ -28838,45 +29090,45 @@
         },
         {
           "doy": 194,
-          "hist_avg": 85.16,
-          "upper": 94.87,
-          "lower": 75.46
+          "hist_avg": 85.14,
+          "upper": 94.82,
+          "lower": 75.47
         },
         {
           "doy": 195,
-          "hist_avg": 85.63,
-          "upper": 95.86,
+          "hist_avg": 85.61,
+          "upper": 95.81,
           "lower": 75.41
         },
         {
           "doy": 196,
-          "hist_avg": 84.0,
-          "upper": 93.04,
-          "lower": 74.96
+          "hist_avg": 83.98,
+          "upper": 92.99,
+          "lower": 74.97
         },
         {
           "doy": 197,
-          "hist_avg": 82.14,
-          "upper": 89.89,
-          "lower": 74.39
+          "hist_avg": 82.12,
+          "upper": 89.84,
+          "lower": 74.41
         },
         {
           "doy": 198,
-          "hist_avg": 81.88,
-          "upper": 89.13,
-          "lower": 74.62
+          "hist_avg": 81.86,
+          "upper": 89.08,
+          "lower": 74.64
         },
         {
           "doy": 199,
-          "hist_avg": 79.53,
-          "upper": 87.41,
-          "lower": 71.65
+          "hist_avg": 79.51,
+          "upper": 87.36,
+          "lower": 71.66
         },
         {
           "doy": 200,
-          "hist_avg": 78.88,
-          "upper": 85.65,
-          "lower": 72.11
+          "hist_avg": 78.86,
+          "upper": 85.62,
+          "lower": 72.09
         },
         {
           "doy": 201,
@@ -28994,45 +29246,45 @@
         },
         {
           "doy": 220,
-          "hist_avg": 81.76,
-          "upper": 91.52,
-          "lower": 71.99
+          "hist_avg": 81.73,
+          "upper": 91.51,
+          "lower": 71.96
         },
         {
           "doy": 221,
-          "hist_avg": 81.31,
+          "hist_avg": 81.29,
           "upper": 89.95,
-          "lower": 72.66
+          "lower": 72.62
         },
         {
           "doy": 222,
-          "hist_avg": 82.53,
+          "hist_avg": 82.51,
           "upper": 93.85,
-          "lower": 71.21
+          "lower": 71.17
         },
         {
           "doy": 223,
-          "hist_avg": 81.08,
-          "upper": 90.95,
-          "lower": 71.22
+          "hist_avg": 81.06,
+          "upper": 90.93,
+          "lower": 71.19
         },
         {
           "doy": 224,
-          "hist_avg": 80.88,
-          "upper": 91.47,
-          "lower": 70.28
+          "hist_avg": 80.86,
+          "upper": 91.45,
+          "lower": 70.27
         },
         {
           "doy": 225,
-          "hist_avg": 79.86,
-          "upper": 92.72,
-          "lower": 66.99
+          "hist_avg": 79.84,
+          "upper": 92.7,
+          "lower": 66.97
         },
         {
           "doy": 226,
-          "hist_avg": 78.78,
-          "upper": 92.74,
-          "lower": 64.81
+          "hist_avg": 78.76,
+          "upper": 92.72,
+          "lower": 64.79
         },
         {
           "doy": 227,
@@ -29877,20 +30129,48 @@
       ],
       "current": [
         {
+          "doy": 226,
+          "roll7": 2.67
+        },
+        {
+          "doy": 225,
+          "roll7": 3.0
+        },
+        {
+          "doy": 224,
+          "roll7": 2.6
+        },
+        {
+          "doy": 223,
+          "roll7": 3.5
+        },
+        {
+          "doy": 222,
+          "roll7": 3.57
+        },
+        {
+          "doy": 221,
+          "roll7": 3.57
+        },
+        {
+          "doy": 220,
+          "roll7": 4.57
+        },
+        {
           "doy": 219,
-          "roll7": 4.33
+          "roll7": 4.29
         },
         {
           "doy": 218,
-          "roll7": 3.75
+          "roll7": 4.0
         },
         {
           "doy": 217,
-          "roll7": 3.8
+          "roll7": 4.43
         },
         {
           "doy": 216,
-          "roll7": 4.17
+          "roll7": 4.14
         },
         {
           "doy": 215,
